@@ -10,7 +10,7 @@ body:
     id: who
     attributes:
       label: Who is requesting this?
-  - type: input
+  - type: textarea
     id: what
     attributes:
       label: What is being requested?
@@ -18,7 +18,7 @@ body:
     id: when
     attributes:
       label: What is the timeline for the completion of this task?
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Provide a description or any other important information.
