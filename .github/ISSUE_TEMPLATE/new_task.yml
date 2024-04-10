@@ -1,0 +1,24 @@
+name: New Task
+description: Request a new task in the IOOS Marine Life Data Network
+title: "[New Task]: "
+labels: ["new task"]
+body:
+  - type: markdown
+    attributes:
+      value: To start the discussion and planning of a new task in the IOOS Marine Life Data Network, please fill out the questions below.
+  - type: input
+    id: who
+    attributes:
+      label: Who is requesting this?
+  - type: textarea
+    id: what
+    attributes:
+      label: What is being requested?
+  - type: input
+    id: when
+    attributes:
+      label: What is the timeline for the completion of this task?
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a description or any other important information.
