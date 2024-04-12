@@ -20,7 +20,7 @@ Observational methods include but are not limited to:
 - Bottle samples
 - Quadrat surveys
 
-### IOOS Core Variables related to biology ([notebook](https://colab.research.google.com/drive/1BOgOMjYhw0ISif9A3kZ6YRVQexiLLSH5?usp=sharing))
+### IOOS Core Variables related to biology ([notebook](https://gist.github.com/MathewBiddle/dfbec376699368e090975fe5e2ff7b34))
 - sea_bird_abundance_and_distribution
 - dissolved_nutrients
 - sea_turtle_abundance_and_distribution
