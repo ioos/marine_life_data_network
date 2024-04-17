@@ -19,7 +19,7 @@ body:
     attributes:
       label: What is the requested deadline for the completion of this task?
   - type: textarea
-    id: description
+    id: statusquo
     attributes:
       label: What is the current status quo (i.e., what happens if this does not get done)?
   - type: textarea
