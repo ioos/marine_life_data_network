@@ -1,6 +1,6 @@
 name: New Task
 description: Request a new task in the IOOS Marine Life Data Network
-title: "[New Task]: "
+title: "New Task: "
 labels: ["new task"]
 body:
   - type: markdown
@@ -17,7 +17,11 @@ body:
   - type: input
     id: when
     attributes:
-      label: What is the timeline for the completion of this task?
+      label: What is the requested deadline for the completion of this task?
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the current status quo (i.e., what happens if this does not get done)?
   - type: textarea
     id: description
     attributes:
