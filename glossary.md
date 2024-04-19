@@ -23,8 +23,9 @@ Acronym | Meaning | Reference
 GTS | Global Telecommunications System | https://community.wmo.int/en/activity-areas/global-telecommunication-system-gts
 
 ### I
-Acronym | Meaning
----|---
+Acronym | Meaning | Reference
+---|---|---
+IFCB | Imaging FlowCytobot
 IOOS | U.S. Integrated Ocean Observing System | https://ioos.noaa.gov
 
 ### M
