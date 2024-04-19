@@ -1,4 +1,4 @@
-## Marine Life Data Network Abbreviations Glossary
+## Marine Life Data Network Glossary
 
 There are many abbreviations used at NOAA U.S. Integrated Ocean Observing System, and some of these are specific to the Marine Life Data Network. In this document, we try to provide a comprehensive guide to these acronmyns and their meanings to help users better understand the documentation in this repository.
 
