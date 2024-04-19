@@ -3,7 +3,7 @@
 There are many abbreviations used at NOAA U.S. Integrated Ocean Observing System, and some of these are specific to the Marine Life Data Network. In this document, we try to provide a comprehensive guide to these acronmyns and their meanings to help users better understand the documentation in this repository.
 
 ## List
-[A](#A) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#I) [J](#j) [K](#k) [L](#l) [M](#M) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z) 
+[A](#A) [B](#B) [C](#C) [D](#D) [E](#E) [F](#F) [G](#G) [H](#H) [I](#I) [J](#J) [K](#K) [L](#L) [M](#M) [N](#N) [O](#O) [P](#P) [Q](#Q) [R](#R) [S](#S) [T](#T) [U](#U) [V](#V) [W](#W) [X](#X) [Y](#Y) [Z](#Z) 
 
 ### A
 Acronym | Meaning | Reference (if any)
