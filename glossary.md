@@ -25,7 +25,7 @@ GTS | Global Telecommunications System | https://community.wmo.int/en/activity-a
 ### I
 Acronym | Meaning
 ---|---
-IOOS | U.S. Integrated Ocean Observing System
+IOOS | U.S. Integrated Ocean Observing System | https://ioos.noaa.gov
 
 ### M
 Acronym | Meaning | Reference
