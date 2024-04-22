@@ -23,6 +23,10 @@ body:
     attributes:
       label: What is the current status quo (i.e., what happens if this does not get done)?
   - type: textarea
+    id: doneindicate
+    attributes:
+      label: What indicates this is done (i.e., how do we know this is complete)?     
+  - type: textarea
     id: description
     attributes:
       label: Provide a description or any other important information.
