@@ -20,30 +20,21 @@ Observational methods include but are not limited to:
 - Bottle samples
 - Quadrat surveys
 
-### IOOS Core Variables related to biology ([notebook](https://gist.github.com/MathewBiddle/dfbec376699368e090975fe5e2ff7b34))
-- sea_bird_abundance_and_distribution
-- dissolved_nutrients
-- sea_turtle_abundance_and_distribution
-- invertebrate_abundance_and_distribution
-- ocean_sound
-- optical_properties
-- total_suspended_matter
-- phytoplankton_biomass_and_diversity
-- zooplankton_biomass_and_diversity
-- acidity
-- mangrove_cover_and_composition
-- cdom
-- pco2
-- dissolved_oxygen
-- microbe_biomass_and_diversity
-- hard_coral_cover_and_composition
-- marine_mammal_abundance_and_distribution
-- seagrass_cover_and_composition
-- contaminants
-- fish_abundance_and_diversity
-- macroalgal_canopy_cover_and_composition
-- pathogens
-- ocean_color
+### [Essential Ocean Variables for Biology and Ecology](https://goosocean.org/what-we-do/framework/essential-ocean-variables/)
+- Phytoplankton biomass/diversity
+- Zooplankton biomass/diversity
+- Fish abundance/distribution
+- Sea turtle abundance/distribution
+- Sea bird abundance/distribution
+- Marine mammal abundance/distribution
+- Hard coral cover and composition
+- Seagrass cover and composition
+- Macroalgal canopy cover and composition
+- Mangrove cover and composition
+- Ocean sound (cross-disciplinary)
+- Ocean color (cross-disciplinary)
+- Microbe biomass/diversity (pilot)
+- Invertebrate abundance/distribution (pilot)
 
 ### Goals and Requirements
 - Provide an inventory of Marine Life data collected by the IOOS enterprise.
