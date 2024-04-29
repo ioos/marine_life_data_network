@@ -20,6 +20,8 @@ Observational methods include but are not limited to:
 - Bottle samples
 - Quadrat surveys
 
+For a list of commonly used acronyms you may come across in this repository, please see the [glossary](https://github.com/ioos/marine_life_data_network/blob/main/glossary.md).
+
 ### [Essential Ocean Variables for Biology and Ecology](https://goosocean.org/what-we-do/framework/essential-ocean-variables/)
 - Phytoplankton biomass/diversity
 - Zooplankton biomass/diversity
@@ -66,6 +68,9 @@ Observational methods include but are not limited to:
   - HABs
   - IFCB
   - Corals/high level data flow - https://iooc.us/sites/default/files/2022-12/BioIce_Introduction_Final.pdf
+ 
+### How to Contribute
+If you would like to contribute to the IOOS Marine Life Data Network, please see the [contributing guide](https://github.com/ioos/marine_life_data_network/blob/main/contributing.md).
  
 ### Questions To Answer
 - Do we want to build a monolithic assembly center? One DAC to rule them all?
