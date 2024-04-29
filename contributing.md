@@ -3,19 +3,13 @@
 Dear IOOS Marine Life community member,
 
 Thank you for taking the time to consider making a contribution to the repository.
-The netCDF Climate and Forecasting conventions are a product by and for a broad community and your contribution is the key to their usefulness.
+IOOS Marine Life data are developed by and for a broad community, and your contributions about datasets, tasking, and user stories are key to the IOOS Marine Life Data Network's success. This set of guidelines provides a brief overview of the practices and procedures that should be used in fixing, updating, or adding to this repository.
 
-This set of guidelines provides a brief overview of the practices and procedures that should be used in fixing, updating, or adding to the conventions.
-
-As a prerequisite to this guide, please review the community's code of conduct.
-The CF community takes great pride in respectful and collegial discourse.
-Any disrespectful or otherwise derogatory communication will not be tolerated.
-
-These contribution guidelines are designed to make it easy to contribute to the CF Conventions and are tailored to the platform where they are hosted, GitHub.
-They are intended to support your work and not to constrict you; if at any time you find them difficult to follow, ask for help.
+These contribution guidelines are designed to outline the usage of this repository and make it easy for others to contribute.
+They are intended to support open communication, data management, and scientific advancement as it relates to the IOOS Marine Life Program. If at any time you have questions, ask for help.
 Your contribution is valuable and the community will be happy to give a hand.
 
-## General guidelines for using GitHub to 
+## General guidelines for using GitHub to make a request
 
 1. **A given proposal should be discussed as one issue.** It shouldn't fork or be superseded by another one, unless that reflects what has happened to the proposal.
 This is so it is easy to trace the discussion that led to a given agreed proposal.
