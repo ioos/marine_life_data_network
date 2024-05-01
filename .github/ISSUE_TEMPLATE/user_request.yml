@@ -1,5 +1,5 @@
 name: User Request
-description: Request a new task in the IOOS Marine Life Data Network
+description: Submit a user request to the IOOS Marine Life Data Network
 title: "User Request: "
 body:
   - type: markdown
