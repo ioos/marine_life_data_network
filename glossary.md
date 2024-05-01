@@ -32,3 +32,4 @@ IOOS | U.S. Integrated Ocean Observing System | https://ioos.noaa.gov
 Acronym | Meaning | Reference
 ---|---|---
 MBON | Marine Biodiversity Observation Network | https://marinebon.org
+MLDN | Marine Life Data Network | https://github.com/ioos/marine_life_data_network
