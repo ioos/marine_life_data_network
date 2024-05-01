@@ -1,5 +1,4 @@
 # Contributing to the Marine Life Data Network repository
-### ***This document is in draft form.***
 Dear IOOS Marine Life community member,
 
 Thank you for taking the time to consider making a contribution to the repository.
