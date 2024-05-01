@@ -31,6 +31,9 @@ Practically all changes should be documented and discussed in an issue and fixed
 Currently this is achieved by using an appropriate issue template when creating a [new issue](https://github.com/cf-convention/cf-conventions/issues/new/choose).
 6. **Role of the MLDN Moderators.** Each issue should have a moderator who guides the discussion through the change process and summarises it occasionally. MLDN Moderators (@MathewBiddle and @laurabrenskelle) will review comments on issues and update the initial request as appropriate. This will make it easier to understand what consensus was reached in the comments without reading the entire thread after the fact.
 
+## Contributing to documents in the repository
+To propose a change to a document in the repository, please create a fork of the repository, make your changes, and submit a pull request for review. This allows better tracking of the changes that have been made.
+
 ## Management of the Marine Life Data Network Project
 Issues relating to specific tasking or long term planning may be moved by the IOOS Marine Life team to the Marine Life Data Network Project. This project functions like a kanban board with swim lanes for No Status (or backlog), To Do, In Progress, and Done.
 
