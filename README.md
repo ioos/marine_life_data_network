@@ -2,10 +2,10 @@
 ## *This document is in development.*
 
 ### Intent of this document
-The intent of this document is to clearly identify what IOOS' vision is for a Marine Life Data Network’s DMAC capability/infrastructure so we can effectively communicate with IOOS partners and start to build out “the network”. This document will lay out IOOS’ current data network architecture and where IOOS would like the network to be in the next five years.
+The intent of this document is to clearly identify IOOS' vision for a Marine Life Data Network (MLDN) data management and cyberinfrastructure so we can effectively communicate with IOOS partners and start to build out the network. This document will lay out IOOS’ current data network architecture and where IOOS would like the MLDN to be in the next five years.
 
 ### Vision
-To serve as the aggregator of marine life observations and data needed for a range of applications for conservation, sustainable development, management, climate response, environmental monitoring, and modeling. These observations will also feed into standardized data products, like OBIS and GBIF, which contribute to the development of indicators.
+To serve as the aggregator of marine life observations and data needed for a range of applications for conservation, sustainable development, management, climate response, environmental monitoring, and modeling. These observations will also feed into standardized data products, like the Ocean Biodiversity Information System ([OBIS](https://obis.org)) and the Global Biodiversity Information Facility ([GBIF](https://www.gbif.org)), which contribute to the development of indicators.
 
 ### Definition
 Marine life observations are any observations of, or proxies for, life in aquatic environments.
@@ -68,11 +68,16 @@ For a list of commonly used acronyms you may come across in this repository, ple
   - HABs
   - IFCB
   - Corals/high level data flow - https://iooc.us/sites/default/files/2022-12/BioIce_Introduction_Final.pdf
+
+### Purposes of this Repository
+This repository is multipurpose. It provides a place for documentation, long term planning, task tracking, and user stories for the IOOS Marine Life Data Network in a transparent manner to encourage community participation and collaboration.
+
+If you have questions about this repository, the Animal Telemetry Network (ATN), or Marine Biodiversity Observation Network (MBON) that are not answered here in the readme or in the contributing guide, you can send an email to us.mbon@noaa.gov or atndac@listserver.mbari.org.
  
 ### How to Contribute
 If you would like to contribute to the IOOS Marine Life Data Network, please see the [contributing guide](https://github.com/ioos/marine_life_data_network/blob/main/contributing.md).
  
-### Questions To Answer
+### Questions We Want the MLDN to Answer
 - Do we want to build a monolithic assembly center? One DAC to rule them all?
 - Do we want to connect various assembly centers together?
 - What technologies are we looking at?
@@ -95,3 +100,12 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 - Establishing and maintaining communities of practice relevant to marine life observations
   - Working groups, TDWG, Cluster
   - Engagement between scientists and data managers
+ 
+### Related Resources
+If you are interested in a particular subset of the Marine Life Data Network, such as ATN or MBON, below you will find links to other helpful resources.
+- [IOOS Marine Life Website](https://ioos.noaa.gov/ioos-in-action/marine-life/)
+- [ATN Website](https://atn.ioos.us)
+- [ATN Documentation](https://github.com/ioos/ioos-atn-data)
+- [MBON Website](https://marinebon.org)
+- [MBON Documentation](https://ioos.github.io/mbon-docs/)
+- [MBON Data Portal](https://mbon.ioos.us/)
