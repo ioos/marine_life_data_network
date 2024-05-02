@@ -28,8 +28,7 @@ These tasks are outlined in issues. If appropriate, related issues can be organi
 In other words, if the content or concept of what is being proposed needs to be vetted by the community it should be vetted in an issue.
 If the proposal is non-controversial (such as a typo correction) or has been agreed to in concept in an issue, then detailed review of the text may take place in a pull request.
 Practically all changes should be documented and discussed in an issue and fixed in a related pull request.
-5. **Use [labels](https://github.com/ioos/marine_life_data_network/labels) on issues and pull requests.**
-Currently this is achieved by using an appropriate issue template when creating a [new issue](https://github.com/ioos/marine_life_data_network/issues/new/choose).
+5. **Use [labels](https://github.com/ioos/marine_life_data_network/labels) on issues and pull requests.** After an issue is created, please add the relevant labels from the label dropdown menu.
 6. **Role of the MLDN Moderators.** Each issue should have a moderator who guides the discussion through the change process and summarises it occasionally. MLDN Moderators (currently, @MathewBiddle and @laurabrenskelle) will review comments on issues and update the initial request as appropriate. This will make it easier to understand what consensus was reached in the comments without reading the entire thread after the fact.
 
 ## Contributing to documents in the repository
