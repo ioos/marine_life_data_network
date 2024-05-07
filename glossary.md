@@ -35,7 +35,7 @@ GTS | Global Telecommunications System | https://community.wmo.int/en/activity-a
 ### H
 Acronym | Meaning | Reference
 ---|---|---
-HAB | Harmful algal bloom
+HAB | Harmful algal bloom | https://oceanservice.noaa.gov/hazards/hab/
 
 ### I
 Acronym | Meaning | Reference
