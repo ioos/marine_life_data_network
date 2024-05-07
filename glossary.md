@@ -11,16 +11,31 @@ Acronym | Meaning | Reference
 ADR | ATN Project Registration application
 ATN | Animal Telemetry Network | https://atn.ioos.us
 
+### B
+Acronym | Meaning | Reference
+---|---|---
+BOEM | Bureau of Ocean Energy Management | https://www.boem.gov
+
 ### D
 Acronym | Meaning | Reference
 ---|---|---
 DAC | Data Assembly Center
 DMAC | Data Management and Cyberinfrastructure | https://ioos.noaa.gov/project/dmac/
 
+### D
+Acronym | Meaning | Reference
+---|---|---
+eDNA | Environmental DNA | https://www.aoml.noaa.gov/exploring-environmental-dna/
+
 ### G
 Acronym | Meaning | Reference
 ---|---|---
 GTS | Global Telecommunications System | https://community.wmo.int/en/activity-areas/global-telecommunication-system-gts
+
+### H
+Acronym | Meaning | Reference
+---|---|---
+HAB | Harmful algal bloom
 
 ### I
 Acronym | Meaning | Reference
@@ -33,3 +48,8 @@ Acronym | Meaning | Reference
 ---|---|---
 MBON | Marine Biodiversity Observation Network | https://marinebon.org
 MLDN | Marine Life Data Network | https://github.com/ioos/marine_life_data_network
+
+### N
+Acronym | Meaning | Reference
+---|---|---
+NHABON | National Harmful Algal Bloom Observing Network | https://ioosassociation.org/nhabon/
