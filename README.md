@@ -5,7 +5,7 @@
 The intent of this document is to clearly identify IOOS' vision for a Marine Life Data Network (MLDN) data management and cyberinfrastructure so we can effectively communicate with IOOS partners and start to build out the network. This document will lay out IOOS’ current data network architecture and where IOOS would like the MLDN to be in the next five years.
 
 ### Vision
-To serve as the aggregator of marine life observations and data needed for a range of applications for conservation, sustainable development, management, climate response, environmental monitoring, and modeling. These observations will also feed into standardized data products, like the Ocean Biodiversity Information System ([OBIS](https://obis.org)) and the Global Biodiversity Information Facility ([GBIF](https://www.gbif.org)), which contribute to the development of indicators.
+To serve as the aggregator of marine life observations for the IOOS data enterprise and to provide data and products for a range of applications for conservation, sustainable development, management, climate response, environmental monitoring, and modeling. These observations will also feed into standardized data products, like the Ocean Biodiversity Information System ([OBIS](https://obis.org)) and the Global Biodiversity Information Facility ([GBIF](https://www.gbif.org)), which serve the broader scientific community and contribute to the development of biological and ecosystem indicators.
 
 ### Definition
 Marine life observations are any observations of, or proxies for, life in aquatic environments.
@@ -93,8 +93,24 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 - How do we track where data are?
 
 ### Who?
+#### IOOS Team
 - IOOS DMAC
 - IOOS Advisory Committee
+
+#### Data Providers and Generators
+- [IOOS Regional Associations](https://ioos.noaa.gov/about/regional-associations/)
+- [Marine Biodiversity Observation Network](https://marinebon.org)
+- [Animal Telemetry Network](https://atn.ioos.us)
+- [National Harmful Algal Bloom Observing Network](https://ioosassociation.org/nhabon/) (NHABON)
+- [SanctSound](https://sanctsound.ioos.us)
+- SoundCoop (website in progress)
+- [Passive Acoustic Cetacean Monitoring](https://apps-nefsc.fisheries.noaa.gov/pacm/#/) (PACM)
+
+#### Data User Community
+- [Bureau of Ocean Energy Management](https://www.boem.gov/)
+- [NOAA Climate, Ecosystems, and Fisheries Initiative](https://noaa-psl.github.io/cefi-cookbook/content/intro.html)
+- [Regional Wildlife Science Collaborative for Offshore Wind](https://rwsc.org)
+- General ecosystem and species modeling communities
 
 ### Future Directions
 - Establishing and maintaining communities of practice relevant to marine life observations
@@ -104,8 +120,6 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 ### Related Resources
 If you are interested in a particular subset of the Marine Life Data Network, such as ATN or MBON, below you will find links to other helpful resources.
 - [IOOS Marine Life Website](https://ioos.noaa.gov/ioos-in-action/marine-life/)
-- [ATN Website](https://atn.ioos.us)
 - [ATN Documentation](https://github.com/ioos/ioos-atn-data)
-- [MBON Website](https://marinebon.org)
 - [MBON Documentation](https://ioos.github.io/mbon-docs/)
 - [MBON Data Portal](https://mbon.ioos.us/)
