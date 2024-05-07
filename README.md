@@ -54,7 +54,7 @@ For a list of commonly used acronyms you may come across in this repository, ple
 - Occurrence data are available in OBIS/GBIF.
 
 ### Current Implementation
-- Share raw data using community accepted services (ERDDAP) preferably through IOOS Regional Association cyberinfrastructure. 
+- Share raw data using community accepted services (ERDDAP™) preferably through IOOS Regional Association cyberinfrastructure. 
 - Align species occurrence data to the Darwin Core standard and share with OBIS-USA.
 - Share planned/current sampling activities on GOOS BioEco portal.
 - Long term archival at NOAA’s NCEI.
