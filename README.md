@@ -107,10 +107,11 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 - [Passive Acoustic Cetacean Monitoring](https://apps-nefsc.fisheries.noaa.gov/pacm/#/) (PACM)
 
 #### Data User Community
-- [Bureau of Ocean Energy Management](https://www.boem.gov/)
-- [NOAA Climate, Ecosystems, and Fisheries Initiative](https://noaa-psl.github.io/cefi-cookbook/content/intro.html)
+- [Bureau of Ocean Energy Management](https://www.boem.gov/) (BOEM)
+- [NOAA Climate, Ecosystems, and Fisheries Initiative](https://noaa-psl.github.io/cefi-cookbook/content/intro.html) (CEFI)
 - [Regional Wildlife Science Collaborative for Offshore Wind](https://rwsc.org)
 - General ocean, ecosystem, and species modeling communities
+- Marine resource and sanctuary managers
 
 ### Future Directions
 - Establishing and maintaining communities of practice relevant to marine life observations
