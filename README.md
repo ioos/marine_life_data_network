@@ -110,7 +110,7 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 - [Bureau of Ocean Energy Management](https://www.boem.gov/)
 - [NOAA Climate, Ecosystems, and Fisheries Initiative](https://noaa-psl.github.io/cefi-cookbook/content/intro.html)
 - [Regional Wildlife Science Collaborative for Offshore Wind](https://rwsc.org)
-- General ecosystem and species modeling communities
+- General ocean, ecosystem, and species modeling communities
 
 ### Future Directions
 - Establishing and maintaining communities of practice relevant to marine life observations
