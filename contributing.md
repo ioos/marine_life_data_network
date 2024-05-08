@@ -41,3 +41,9 @@ Issues relating to specific tasking or long term planning may be moved by the IO
 Any member of the MLDN may move a task from To Do to In Progress as they begin work on it. However, only the Product Owner (@MathewBiddle) will mark issues as Done on the project board after reviewing the completion criteria to determine if it has been satisfied.
 
 For each issue, an `assignee` will be assigned, either by self assignment or through agreement within the issue. The `assignee` is responsible for executing the effort and/or reporting on the progress of that effort. For more information about `assignees` see the [GitHub documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users).
+
+Process for moving issues in the [project board](https://github.com/orgs/ioos/projects/9):
+* `No status` -> `todo` decided during monthly meetings. Must have `assignee` determined at this point.
+* `Todo` -> `in progress` determined by assignee
+* `In progress` -> `done` determined by IOOS PO
+* `In progress` -> `blocked` decided by IOOS PO.
