@@ -115,8 +115,9 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 
 ### Future Directions
 - Establishing and maintaining communities of practice relevant to marine life observations
-  - Working groups, TDWG, Cluster
+  - Working groups, TDWG, ESIP Clusters
   - Engagement between scientists and data managers
+  - Facilitating opportunities for marine life data managers to learn about relevant standards and data management best practices
  
 ### Related Resources
 If you are interested in a particular subset of the Marine Life Data Network, such as ATN or MBON, below you will find links to other helpful resources.
