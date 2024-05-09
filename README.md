@@ -103,7 +103,7 @@ If you would like to contribute to the IOOS Marine Life Data Network, please see
 - [Animal Telemetry Network](https://atn.ioos.us)
 - [National Harmful Algal Bloom Observing Network](https://ioosassociation.org/nhabon/) (NHABON)
 - [SanctSound](https://sanctsound.ioos.us)
-- SoundCoop (website in progress)
+- Passive Acoustic Monitoring National Cyberinfrastructure Center (SoundCoop; website in progress)
 - [Passive Acoustic Cetacean Monitoring](https://apps-nefsc.fisheries.noaa.gov/pacm/#/) (PACM)
 
 #### Data User Community
