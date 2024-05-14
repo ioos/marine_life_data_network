@@ -35,7 +35,7 @@ Practically all changes should be documented and discussed in an issue and fixed
 To propose a change to a document in the repository, please create a fork of the repository, make your changes, and submit a pull request for review. This allows better tracking of the changes that have been made. Further information about pull requests can be found at https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork.
 
 ## Management of the Marine Life Data Network Project
-Issues relating to specific tasking or long term planning may be moved by the IOOS Marine Life team to the Marine Life Data Network Project. This project functions like a kanban board with swim lanes for No Status (or backlog), To Do, Stuck (for issues that are blocked for some reason), In Progress, and Done.
+Issues relating to specific tasking or long term planning may be moved by the IOOS Marine Life team to the Marine Life Data Network Project. This project functions like a kanban board with swim lanes for No Status (or backlog), ToDo, Blocked, In Progress, and Done.
 
 ### How to Use the Marine Life Data Network Project
 Any member of the MLDN may move a task from To Do to In Progress as they begin work on it. However, only the Product Owner (@MathewBiddle) will mark issues as Done on the project board after reviewing the completion criteria to determine if it has been satisfied.
