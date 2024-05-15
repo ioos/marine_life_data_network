@@ -8,6 +8,9 @@ These contribution guidelines are designed to outline the usage of this reposito
 They are intended to support open communication, data management, and scientific advancement as it relates to the IOOS Marine Life Program. If at any time you have questions, ask for help.
 Your contribution is valuable and the community will be happy to give a hand.
 
+### Code of Conduct
+As this is an IOOS GitHub repository, the IOOS GitHub Code of Conduct applies. You can view this Code of Conduct [here](https://github.com/ioos/.github/blob/main/CODE_OF_CONDUCT.md).
+
 ## Organization of the repository
 
 This repository is meant to include many different types of issues as they relate to the Marine Life Data Network. This includes but is not limited to:
