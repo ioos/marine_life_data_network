@@ -71,18 +71,62 @@ For a list of commonly used acronyms you may come across in this repository, ple
 
 ### Questions We Want the MLDN to Answer
 - Do we want to build a monolithic assembly center? One DAC to rule them all?
+  - We don't necessarily want a singular Data Assembly Center as the needs are vast and the assembly center might never reach the deliverable.
+  - A catalog of available datasets may suffice to meet the need to "find all available IOOS Marine Life data".
 - Do we want to connect various assembly centers together?
+  - The concept of the [Ocean Data Information System (ODIS)](https://odis.org/) and example implementation through the [Ocean InfoHub Project](https://book.oceaninfohub.org/index.html) is appealing as it connects various assebly centers together using technology that most (if not all??) repositories, that IOOS works with, are already implementing.
 - What technologies are we looking at?
+  - Cloud
+    - Cloud storage? PAM, plankton monitoring? Others?
+    - Cloud computing? Does MBON/RAs need cloud computing resources?
+  - ERDDAP
+  - Stand up IOOS/NOAA Integrated publishing toolkit ([IPT](https://www.gbif.org/ipt))? (for control, access to metrics, leverage NOAA as direct stakeholder in OBIS)
+    - Can we cost this out?
+  - schema.org / Science on schema.org (SOSO)
+    - https://schema.org/
+    - https://github.com/ESIPFed/science-on-schema.org 
 - What data formats are we working with?
+  - Darwin Core, Ecological Markup Language (EML), csv, netCDF gridded data (seascapes), images, audio? (PAM)
 - Do we need to consider observing methodologies?
+  - YES - but what does this question mean exactly?
 - What capabilities exist?
 - What are we doing now?
-- What do we want to grow up to become?
-- What might that cost?
-- Who are our stakeholders? What do they need?
-- Where do IOOS' services stop? Do we build products or provide standardized data access and other folks develop products on those?
-- Are we simply an education → implementation facility? Teach folks about the standards and where to put data, but we don’t host anything?
+- **What do we want to grow up to become?**
+  - What might that cost?
+- **Who are our stakeholders? What do they need?**
+  - MBON
+  - ATB
+  - Finance and venture capital - data to support evidence-based indicators, biodiversity metrics (which ones?) and decisions
+  - GOOS - variables
+    - What product is needed here? Eg. OceanOps - not connecting now but OBIS is/planning to be.
+  - National plankton database (federated) so we can get to CPR, IFCB, etc info for not just HABs
+    - U.S. EcoTaxa?
+  - Product hosting and help building products (eg infographics) from obs data
+  - FACT
+  - ACT
+  - OTN Nodes
+  - MBARI
+  - ONMS
+  - N-PAC
+  - OBIS/GBIF
+  - NCEI
+  - OTN
+  - MBON Projects
+  - RA's
+- Where do IOOS' services start/stop? Do we build products or provide standardized data access and other folks develop products on those? What about product hosting?
+  - How does this question and the MLDN overall relate to the Ecosystem Change work in the IRA Topic 2 project?
+  - Are we simply an education → implementation facility? Teach folks about the standards and where to put data, but we don’t host anything?
+  - For example, Foie Gras - state space model (SSM) - is this what we should be investing in?
+    - Scientists see cool product but download raw data then reanalyze for the same product.
+      - Species Distribution Models
+      - SSMs too
+  - What about when users pay for a product? 
+    - Serving as a match-making service.
 - How do we track where data are?
+  - This seems particularly important to nail down for metrics/PARR requirements
+  - Funding DOIs, ROR identifiers, DOIs generally, what else can we leverage to help make this easier?
+    - Keep up to date with ACDO conversations about this because it seemed relevant/on their minds at EDMW
+
 
 ### Who?
 #### IOOS Team
