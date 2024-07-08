@@ -40,7 +40,7 @@ For a list of commonly used acronyms you may come across in this repository, ple
 
 ### Goals and Requirements
 - Provide an inventory of Marine Life data collected by the IOOS enterprise.
-- Ensure marine life observations align with the FAIR principles.
+- Ensure marine life observations align with the FAIR principles and PARR 2.0 requirements.
 - Data are made available ASAP.
 - Serve as a national aggregator of marine life observations.
 - Leverage existing resources for the management of marine life observations.
