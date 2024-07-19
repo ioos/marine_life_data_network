@@ -3,6 +3,8 @@
 ## Purposes of this Repository
 This repository is multipurpose. It provides a place for documentation, long term planning, task tracking, and user stories for the IOOS Marine Life Data Network in a transparent manner to encourage community participation and collaboration.
 
+For a list of commonly used acronyms you may come across in this repository, please see the [glossary](https://github.com/ioos/marine_life_data_network/blob/main/glossary.md).
+
 If you have questions about this repository, the Animal Telemetry Network (ATN), or Marine Biodiversity Observation Network (MBON) that are not answered here in the readme or in the contributing guide, you can send an email to us.mbon@noaa.gov or atndac@listserver.mbari.org.
  
 ## How to Contribute
