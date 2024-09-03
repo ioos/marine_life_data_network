@@ -1,0 +1,158 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: "Menu"
+  levels: two
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+# Always visible folder name that contains top-level menu items with links to 1st document/page
+  - title: "Introduction"
+    output: web
+    url: /index.html
+    folderitems:
+    - title: "Introduction"
+      url: /index.html
+      output: web
+    - title: "Categories of MBON observations"
+      url: /index.html#categories-of-mbon-observations
+      output: web
+    - title: "Working Group Charter"
+      url: /working-group-charter.html
+      output: web
+
+
+  - title: "MBON Data Flow"
+    output: web
+    folderitems:
+    - title: "Overview"
+      url: /mbon-data-flow.html
+      output: web
+    - title: "RA ERDDAP"
+      url: /mbon-data-flow.html#ra-erddap
+      output: web
+    - title: "Darwin Core Alignment"
+      url: /mbon-data-flow.html#darwin-core-alignment
+      output: web
+    - title: "Sending to OBIS-USA"
+      url: /mbon-data-flow.html#sending-to-obis-usa
+      output: web
+    - title: "Sending to NCEI"
+      url: /mbon-data-flow.html#sending-to-ncei
+      output: web
+    - title: "Loading into MBON Portal"
+      url: /mbon-data-flow.html#loading-into-mbon-portal
+      output: web
+  - title: "How to guide for MBON metadata"
+    output: web
+    folderitems:
+    - title: "Overview"
+      url: /metadata-eml.html
+      output: web
+    - title: "Geographic Coverage"
+      url: /metadata-eml.html#geographic-coverage
+      output: web
+    - title: "Taxonomic Coverage"
+      url: /metadata-eml.html#taxonomic-coverage
+      output: web
+    - title: "Temporal Coverage"
+      url: /metadata-eml.html#temporal-coverage
+      output: web
+    - title: "Keywords"
+      url: /metadata-eml.html#keywords
+      output: web
+    - title: "Associated Parties"
+      url: /metadata-eml.html#associated-parties
+      output: web
+    - title: "Project Data"
+      url: /metadata-eml.html#project-data
+      output: web
+    - title: "Sampling Methods"
+      url: /metadata-eml.html#sampling-methods
+      output: web
+    - title: "Citations"
+      url: /metadata-eml.html#citations
+      output: web
+    - title: "Collection Data"
+      url: /metadata-eml.html#collection-data
+      output: web
+    - title: "External Links"
+      url: /metadata-eml.html#external-links
+      output: web
+    - title: "Additional Metadata"
+      url: /metadata-eml.html#additional-metadata
+      output: web
+    - title: "Appendix: How to create an OceanExpert institution"
+      url: /metadata-eml.html#appendix-how-to-create-an-oceanexpert-institution
+      output: web
+  - title: "MBON use case"
+    output: web
+    folderitems:
+    - title: "Overview"
+      url: /use-case.html
+      output: web
+    - title: 'Gulf of Maine Wilkinson Basin Time Series Station Calanus Abundance Observations'
+      url: /use-case.html#gulf-of-maine-wilkinson-basin-time-series-station-calanus-abundance-observations
+      output: web
+  - title: "MBON Data Portal Demo"
+    output: web
+    folderitems:
+      - title: "Overview"
+        url: /data-portal-demo.html
+        output: web
+      - title: "Open the Data Portal"
+        url: /data-portal-demo.html#open-the-data-portal
+        output: web
+      - title: "Add Data Layer to Map"
+        url: /data-portal-demo.html#add-data-layer-to-the-map
+        output: web
+      - title: "Navigating the Map Layer"
+        url: /data-portal-demo.html#navigating-the-map-layer
+        output: web
+      - title: "Exploring the Data"
+        url: /data-portal-demo.html#exploring-the-data
+        output: web
+      - title: "Filtering Data"
+        url: /data-portal-demo.html#filtering-data
+        output: web
+      - title: "Keyword Filtering"
+        url: /data-portal-demo.html#keyword-filtering
+        output: web
+      - title: "Polygon Selection"
+        url: /data-portal-demo.html#polygon-selection
+        output: web
+      - title: "Adding/Comparing Sea Surface Temperature"
+        url: /data-portal-demo.html#adding-comparing-sea-surface-temperature
+        output: web
+      - title: "TOPIC: Comparing Data with Data Views"
+        url: /data-portal-demo.html#topic-comparing-data-with-data-views
+        output: web
+      - title: "The Data View"
+        url: /data-portal-demo.html#the-data-view
+        output: web
+      - title: "Feedback Button"
+        url: /data-portal-demo.html#finally-the-feedback-button
+        output: web
+      - title: "Appendix: Real-time Sensor Layer"
+        url: /data-portal-demo.html#appendix-using-the-real-time-sensor-layer
+        output: web
+      - title: "Appendix: Advanced Filtering"
+        url: /data-portal-demo.html#appendix-advanced-filtering
+        output: web
+      - title: "Appendix: MBON Data View Challenge"
+        url: /data-portal-demo.html#appendix-mbon-data-view-challenge
+        output: web
