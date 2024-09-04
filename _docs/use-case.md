@@ -1,9 +1,9 @@
 ---
-title: "MBON use case"
+title: "MLDN use cases"
 keywords: data
 tags: [biology, data, example]
 toc: true
-summary: This is a collection of IOOS Marine Biodiversity Observation Network (MBON) data flow use cases.
+summary: This is a collection of IOOS Marine Life Data Network (MLDN) data flow use cases.
 ---
 ## Gulf of Maine Wilkinson Basin Time Series Station Calanus Abundance Observations
 
@@ -69,10 +69,4 @@ Data were shared to GBIF at: <https://www.gbif.org/dataset/29651377-23c8-4f45-b4
 7. Record the **Reference ID** for your submission in case you need to reach out for questions.
 8. Check the Send2NCEI **My Submission Packages** page to see the status of the submission.
 9. Iterate with NCEI to answer any remaining questions they might have. 
-10. Once archived and published, NCEI will provide an accession number and url to the dataset landing page. 
-
-### Loading data into MBON Portal
-*Describe the process for loading data into MBON portal, including lessons learned. Include link to MBON portal layer.*
-
-### Overall lessons learned
-*Include any overarching lessons learned here.*
+10. Once archived and published, NCEI will provide an accession number and url to the dataset landing page.
