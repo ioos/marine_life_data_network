@@ -132,11 +132,11 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # EDIT HERE! Added settings for IOOS (replace 'ioos-documentation-jekyll-skeleton' with your GitHub repo name):
 url                      : "https://ioos.github.io"
 
-baseurl                  : "/mbon-docs"
+baseurl                  : "/marine_life_data_network"
 
-repository               : "ioos/mbon-docs"
+repository               : "ioos/marine_life_data_network"
 
-github_editme_path       : "ioos/mbon-docs/blob/gh-pages/_docs"
+github_editme_path       : "ioos/marine_life_data_network/blob/gh-pages/_docs"
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 #Setup/config for 'ioos_jekyll_theme' git submodule:
