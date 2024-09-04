@@ -1,7 +1,7 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: MBON Data and File Formatting Home
+topnav_title: MLDN Requirements
 # this appears on the top navigation bar next to the home button; replace the value with your site name
 
 site_title: IOOS GitHub Documentation
@@ -35,7 +35,7 @@ exclude:
   - theme/pdf-*
   #- theme/
 
-feedback_subject_line: MBON Data and File Formatting Documentation
+feedback_subject_line: MLDN Requirements
 # subject line prefix for feedback emails
 
 feedback_email: data.ioos@noaa.gov
