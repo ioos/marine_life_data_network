@@ -42,4 +42,4 @@ This website describes the recommendations for formatting and sharing data and m
 - [Data and File Formatting]({{ site.url }}/marine_life_data_network/data.html) - This is MLDN data recommendations.
 - [Metadata and Documentation]({{ site.url }}/marine_life_data_network/metadata.html) - This is the MLDN metadata recommendations.
 - [How to guide for MLDN Metadata]({{ site.url }}/marine_life_data_network/metadata-eml.html) - This is a how-to guide for collecting MLDN metadata.
-- [MLDN Examples]({{ site.url }}/marine_life_data_network/use-case.html) - This is a collection of MLDN data flow use cases.
+- [MLDN examples]({{ site.url }}/marine_life_data_network/use-case.html) - This is a collection of MLDN data flow examples.
