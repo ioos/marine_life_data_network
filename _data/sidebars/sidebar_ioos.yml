@@ -28,7 +28,7 @@ entries:
     - title: "Introduction"
       url: /index.html
       output: web
-    - title: "Categories of MBON observations"
+    - title: "Categories of MLDN observations"
       url: /index.html#categories-of-mbon-observations
       output: web
     - title: "Working Group Charter"
@@ -36,28 +36,25 @@ entries:
       output: web
 
 
-  - title: "MBON Data Flow"
+  - title: "MLDN Data Flows"
     output: web
     folderitems:
     - title: "Overview"
-      url: /mbon-data-flow.html
+      url: /mldn-data-flow.html
       output: web
     - title: "RA ERDDAP"
-      url: /mbon-data-flow.html#ra-erddap
+      url: /mldn-data-flow.html#ra-erddap
       output: web
     - title: "Darwin Core Alignment"
-      url: /mbon-data-flow.html#darwin-core-alignment
+      url: /mldn-data-flow.html#darwin-core-alignment
       output: web
     - title: "Sending to OBIS-USA"
-      url: /mbon-data-flow.html#sending-to-obis-usa
+      url: /mldn-data-flow.html#sending-to-obis-usa
       output: web
     - title: "Sending to NCEI"
-      url: /mbon-data-flow.html#sending-to-ncei
+      url: /mldn-data-flow.html#sending-to-ncei
       output: web
-    - title: "Loading into MBON Portal"
-      url: /mbon-data-flow.html#loading-into-mbon-portal
-      output: web
-  - title: "How to guide for MBON metadata"
+  - title: "How to guide for MLDN metadata"
     output: web
     folderitems:
     - title: "Overview"
@@ -99,7 +96,7 @@ entries:
     - title: "Appendix: How to create an OceanExpert institution"
       url: /metadata-eml.html#appendix-how-to-create-an-oceanexpert-institution
       output: web
-  - title: "MBON use case"
+  - title: "MLDN examples"
     output: web
     folderitems:
     - title: "Overview"
