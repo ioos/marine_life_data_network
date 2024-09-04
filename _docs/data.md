@@ -3,7 +3,7 @@ title: "Data Formatting"
 keywords: data
 tags: [biology, data]
 toc: true
-summary: This is Marine Biodiversity Observation Network (MBON) data recommendations.
+summary: This is Marine Life Data Network (MLDN) data recommendations.
 ---
 
 # Data and File Formatting
