@@ -3,11 +3,11 @@ title: "Data Flow"
 keywords: data
 tags: [biology, dataflow]
 toc: true
-summary: This is a summary of the Marine Biodiversity Observation Network (MBON) data flow for Tabular data and metadata.
+summary: This is a summary of the Marine Life Data Network (MLDN) data flow for tabular data and metadata.
 mermaid: true
 ---
 
-# MBON Data Flow
+# MLDN Data Flow
 
 {% raw %}
 <div class="mermaid">
@@ -113,6 +113,8 @@ ERDDAP provides, a data manager can develop a reproducible workflow for aligning
 [Darwin Core standard](https://dwc.tdwg.org/). Finally, submission to NCEI ensures that no observations are lost and
 there is long-term stewardship of these data, as well as meeting our PARR requirements. The sections below provide more
 context as well as tips and tricks for each of the elements in the diagram above.
+
+Datasets should be registered in the [MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and have identified next actions to take. 
 
 ## RA ERDDAP
 For the IOOS MBON projects ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with
@@ -226,27 +228,8 @@ Briefly, the submission package sent to NCEI should indicate that the observatio
 has some affiliation with IOOS). Below is a short summary of the two submission systems at NCEI and their intended uses.
 * [ATRAC](https://www.ncdc.noaa.gov/atrac/guidelines.html) - Use the Advanced Tracking and Resource Tool for Archive
 Collections (ATRAC) to submit repeating or multiple delivery data, or data that exceeds 20 GB.
-* [S2N](https://www.nodc.noaa.gov/s2n/) - Use Send2NCEI to submit non-repeating or single delivery data less than 20 GB.
+* [S2N](https://www.ncei.noaa.gov/archive/send2ncei/) - Use Send2NCEI to submit non-repeating or single delivery data less than 20 GB.
 
 **Note:** NCEI and OBIS-USA have established an automated process to archive the datasets from the OBIS-USA IPT. The process archives
 the Darwin Core Archive version of the dataset and updates the NCEI Archival Information Package found at <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0250940>. While the OBIS-IPT is an extremely valuable product, the raw data should be 
 archived at NCEI as well.
-
-## Loading into MBON Portal
-As depicted in the [data flow diagram](#mbon-data-flow), the MBON data portal can retrieve data from a variety of 
-sources. The two preferred sources for data include OBIS (or GBIF) and/or ERDDAP (hosted by a Regional Association), 
-however other web services could be acceptable to bring data in. In some cases, the MBON data portal might bring in 
-occurrence data through OBIS as well as additional observations that are served through ERDDAP. Below are the recommended 
-steps to load data into the MBON Portal:
-
-1. The dataset should be registered in the [MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). 
-    1. This will ensure that we are aware of the dataset and have identified next actions to take. 
-    2. Identify that you would like the dataset visualized in the MBON portal and include a description of what that 
-visualization might be.
-2. Share the dataset through OBIS/GBIF and/or through ERDDAP.
-   1. For OBIS/GBIF see [Darwin Core alignment](#darwin-core-alignment) and [Sending to OBIS-USA](#sending-to-obis-usa).
-   2. For sharing through ERDDAP see [RA ERDDAP](#ra-erddap).
-3. Iterate with the MBON portal development team to ensure the visualizations are appropriate for the observations.
-
-_To note_ There are additional pathways to share data with the MBON portal using the Research Workspace. For more 
-information on that pathway see [Contribute Data in the MBON portal documentation](https://mbon.ioos.us/help/how-to/catalog/contribute-data.html).
