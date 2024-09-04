@@ -1,9 +1,9 @@
 ---
-title: "How-to guide for MBON metadata"
+title: "How-to guide for MLDN metadata"
 keywords: metadata
 toc: true
 tags: [metadata, eml]
-summary: This is a how-to guide for collecting MBON metadata.
+summary: This is a how-to guide for collecting MLDN metadata.
 ---
 The information below can also be viewed as a Microsoft Word document [here](https://github.com/ioos/mbon-docs/raw/gh-pages/assets/EML.Metadata.Template.docx).
 
