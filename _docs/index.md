@@ -21,7 +21,7 @@ The Marine Life Data Network builds on the successes of the U.S. Marine Biodiver
 
 This website describes the recommendations for formatting and sharing data and metadata for the MLDN community. The materials presented here were developed through the MBON Data Management and Cyberinfrastructure Working Group (MBON DMAC WG). The working group charter can be found [here]({{ site.url }}/marine_life_data_network/working-group-charter.html). If you would like to contribute to this documentation, see [CONTRIBUTING.md](https://github.com/ioos/marine_life_data_network/blob/gh-pages/CONTRIBUTING.md).
 
-## Categories of MBON observations
+## Categories of MLDN observations
 - Taxonomic data
   - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/mldn-data-flow.html) for sharing and standardizing data to Darwin Core. 
 - Organisms abundance
@@ -42,4 +42,4 @@ This website describes the recommendations for formatting and sharing data and m
 - [Data and File Formatting]({{ site.url }}/marine_life_data_network/data.html) - This is MLDN data recommendations.
 - [Metadata and Documentation]({{ site.url }}/marine_life_data_network/metadata.html) - This is the MLDN metadata recommendations.
 - [How to guide for MLDN Metadata]({{ site.url }}/marine_life_data_network/metadata-eml.html) - This is a how-to guide for collecting MLDN metadata.
-- [MLDN use case]({{ site.url }}/marine_life_data_network/use-case.html) - This is a collection of MLDN data flow use cases.
+- [MLDN Examples]({{ site.url }}/marine_life_data_network/use-case.html) - This is a collection of MLDN data flow use cases.
