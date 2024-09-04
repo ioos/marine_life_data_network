@@ -1,9 +1,9 @@
 ---
-title: "MLDN use cases"
+title: "MLDN examples"
 keywords: data
 tags: [biology, data, example]
 toc: true
-summary: This is a collection of IOOS Marine Life Data Network (MLDN) data flow use cases.
+summary: This is a collection of IOOS Marine Life Data Network (MLDN) data flow examples.
 ---
 ## Gulf of Maine Wilkinson Basin Time Series Station Calanus Abundance Observations
 
