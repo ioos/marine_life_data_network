@@ -83,6 +83,10 @@ OBIS Institute: <https://obis.org/institute/16063> <br/>
 OceanExpert: <https://oceanexpert.org/institution/23204> <br/>
 OBIS Institute: <https://obis.org/institute/23204> <br/>
 
+*Great Lakes Observing System* <br/>
+OceanExpert: <br/>
+OBIS Institute: <br/>
+
 *Gulf of Mexico Coastal Ocean Observing System* <br/>
 OceanExpert: <https://oceanexpert.org/institution/18936> <br/>
 OBIS Institute: <https://obis.org/institute/18936> <br/>
