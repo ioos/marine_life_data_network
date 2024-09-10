@@ -5,7 +5,7 @@ toc: true
 tags: [metadata, eml]
 summary: This is a how-to guide for collecting MLDN metadata.
 ---
-The information below can also be viewed as a Microsoft Word document [here](https://github.com/ioos/mbon-docs/raw/gh-pages/assets/EML.Metadata.Template.docx).
+The information below can also be viewed as a Microsoft Word document [here](https://github.com/ioos/marine_life_data_network/raw/gh-pages/assets/EML.Metadata.Template.docx).
 
 # EML Metadata
 <mark>Highlighted elements are required</mark> 
@@ -41,15 +41,6 @@ Scientific Name, Common Name, Taxon Rank for all species or at higher level if a
 
 ## Associated Parties
 
-All `US MBON` affiliated datasets should include, at least, one **Associated Party** which is affiliated with `US MBON`. This allows OBIS to create an institute page which reflects `US MBON`'s contributions (similar to SCB MBON <https://obis.org/institute/19534>). This is possible because `US MBON` has an OceanExpert institution which will link the various datasets together in an institute page.
-
-
-US MBON Ocean Expert Institution: <https://oceanexpert.org/institution/23070> <br/>
-US MBON OBIS Institution:         <https://obis.org/institute/23070>
-
-_To create an **OceanExpert** institution, follow the 
-[Appendix: How-to Create an OceanExpert Institution](#appendix-how-to-create-an-oceanexpert-institution)._
-
 **Associated Party (include First Name, Last Name, Position, Organization, Email, can link to ORCID):** <br/>
 **Associated Party Role (pick one per person from table below):** <br/>
 _`Role` information is also available at <https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#associated-parties>._
@@ -73,9 +64,65 @@ _`Role` information is also available at <https://ipt.gbif.org/manual/en/ipt/lat
 | curator               | an agent that maintains and documents the specimens in a collection. Some of their duties include preparing and labeling specimens so they are ready for identification, and protecting the specimens 
 | reviewer              | person assigned to review the dataset and verify its data and/or metadata quality. This role is analogous to the role played by peer reviewers in the scholarly publication process.                  
 
-_Note: Abby Benson will be listed as the `publisher` if she loads the data into the IPT for you and publishes to GBIF and/or OBIS_
+_Note: Stephen Formel will be listed as the `publisher` if she loads the data into the IPT for you and publishes to GBIF and/or OBIS._
 
 _Note: Mathew Biddle will be listed as the `distributor` with `US MBON` as the institution._
+
+***For IOOS Regional Associations*** <br/>
+All IOOS Regional Association affiliated datasets should include at least one **Associated Party** which lists the proper RA. The RA names must appear the same as they are listed in OceanExpert. This allows the dataset to show up on the Regional Association’s institutional dashboard. The metrics for your dataset will be tracked on this dashboard.
+
+*Alaska Ocean Observing System* <br/>
+OceanExpert: <br/>
+OBIS Institute: <br/>
+
+*Caribbean Coastal Ocean Observing System* <br/>
+OceanExpert: https://oceanexpert.org/institution/16063 <br/>
+OBIS Institute: https://obis.org/institute/16063 <br/>
+
+*Central & Northern California Ocean Observing System* <br/>
+OceanExpert: https://oceanexpert.org/institution/23204 <br/>
+OBIS Institute: https://obis.org/institute/23204 <br/>
+
+*Gulf of Mexico Coastal Ocean Observing System* <br/>
+OceanExpert: https://oceanexpert.org/institution/18936 <br/>
+OBIS Institute: https://obis.org/institute/18936 <br/>
+
+*Mid-Atlantic Coastal Ocean Observing System* <br/>
+OceanExpert: <br/>
+OBIS Institute: <br/>
+
+*Northeastern Regional Association of Coastal Ocean Observing Systems*
+OceanExpert: https://oceanexpert.org/institution/18301 <br/>
+OBIS Institute: https://obis.org/institute/18301 <br/>
+
+*Northwest Association of Networked Ocean Observing Systems* <br/>
+OceanExpert: <br/>
+OBIS Institute: <br/>
+
+*Pacific Islands Ocean Observing System* <br/>
+OceanExpert: https://oceanexpert.org/institution/20188 <br/>
+OBIS Institute: https://obis.org/institute/20188 <br/>
+
+*Southern California Coastal Ocean Observing System* <br/>
+OceanExpert: <br/>
+OBIS Institute: <br/>
+
+*Southeast Coastal Ocean Observing System* <br/>
+OceanExpert: https://oceanexpert.org/institution/20875 <br/>
+OBIS Institute: https://obis.org/institute/20875 <br/>
+
+***For MBON*** <br/>
+All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` [institutional dashboard](https://obis.org/institute/23070). The metrics for your dataset will be tracked on this dashboard. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
+
+*United States Marine Biodiversity Observation Network* <br/>
+OceanExpert: <https://oceanexpert.org/institution/23070> <br/>
+OBIS Institute: <https://obis.org/institute/23070> <br/>
+
+***Appendices*** <br/>
+_To create an **OceanExpert** institution, follow the 
+[Appendix: How-to Create an OceanExpert Institution](#appendix-how-to-create-an-oceanexpert-institution)._
+
+_NOAA and IOOS DMAC encourage the use of **Research Organization Registry** identifiers for organizations and institutions. See the [Appendix: More Information on ROR Identifiers](#appendix-more-information-on-ror-identifiers)._
 
 ## Project Data
 _If including this section Title and Project Personnel are required_
@@ -83,10 +130,13 @@ _If including this section Title and Project Personnel are required_
 **Title:** <br/>
 **Identifier** <br/>
 **Description:** <br/>
-**Funding:** This work was supported by the U.S. Marine Biodiversity Observation Network (MBON) co-organized by NOAA, NASA, BOEM, and ONR through the National Oceanographic Partnership Program (NOPP) [(add AGENCY grant # here if required/preferred)] <br/>
+**Funding:** <br/>
 **Study Area Description:** <br/>
 **Design Description:** <br/>
 **Project Personnel (First Name, Last Name, Role):** <br/>
+
+***For MBON*** <br/>
+Use this statement for **Funding:** This work was supported by the U.S. Marine Biodiversity Observation Network (MBON) co-organized by NOAA, NASA, BOEM, and ONR through the National Oceanographic Partnership Program (NOPP) [(add AGENCY grant # here if required/preferred)].
 
 ## Sampling Methods
 _If including this section Study Extent, Sampling Description, Step Description are required)_
@@ -136,3 +186,6 @@ To create an **OceanExpert** institution:
 6. That should add the institution to the drop down list for `Organisation/Institution/Company` so that you can associate it with your profile.
 
 To edit **OceanExpert** institution pages, send an email to <mailto:info@oceanexpert.org> with the requested changes.
+
+## Appendix: More information on ROR identifiers
+NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions, but the current implementation of OBIS uses OceanExpert to create the institute dashboard. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made in linking RORs to OceanExpert identifiers and if RORs are implemented in other relevant repositories for IOOS marine life data.
