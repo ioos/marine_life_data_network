@@ -112,7 +112,7 @@ OceanExpert: <https://oceanexpert.org/institution/20875> <br/>
 OBIS Institute: <https://obis.org/institute/20875> <br/>
 
 ***For MBON*** <br/>
-All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` [institutional dashboard](https://obis.org/institute/23070). The metrics for your dataset will be tracked on this dashboard. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
+All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` institutional dashboard. The metrics for your dataset will be tracked on this dashboard. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
 
 *United States Marine Biodiversity Observation Network* <br/>
 OceanExpert: <https://oceanexpert.org/institution/23070> <br/>
