@@ -69,7 +69,7 @@ _Note: Stephen Formel will be listed as the `publisher` if she loads the data in
 _Note: Mathew Biddle will be listed as the `distributor` with `US MBON` as the institution._
 
 ***For IOOS Regional Associations*** <br/>
-All IOOS Regional Association affiliated datasets should include at least one **Associated Party** which lists the proper RA. The RA names must appear the same as they are listed in OceanExpert. This allows the dataset to show up on the Regional Association’s institutional dashboard. The metrics for your dataset will be tracked on this dashboard.
+All IOOS Regional Association affiliated datasets should include at least one **Associated Party** which lists the proper RA. The RA names must appear the same as they are listed in OceanExpert. This allows the dataset to show up on the Regional Association’s institutional dashboard. The metrics for all linked datasets will be tracked on this dashboard.
 
 *Alaska Ocean Observing System* <br/>
 OceanExpert: <br/>
@@ -112,7 +112,7 @@ OceanExpert: <https://oceanexpert.org/institution/20875> <br/>
 OBIS Institute: <https://obis.org/institute/20875> <br/>
 
 ***For MBON*** <br/>
-All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` institutional dashboard. The metrics for your dataset will be tracked on this dashboard. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
+All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` institutional dashboard. The metrics for your dataset will be tracked on this dashboard and combined with other MBON dataset metrics. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
 
 *United States Marine Biodiversity Observation Network* <br/>
 OceanExpert: <https://oceanexpert.org/institution/23070> <br/>
@@ -188,4 +188,4 @@ To create an **OceanExpert** institution:
 To edit **OceanExpert** institution pages, send an email to <mailto:info@oceanexpert.org> with the requested changes.
 
 ## Appendix: More information on ROR identifiers
-NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions, but the current implementation of OBIS uses OceanExpert to create the institute dashboard. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made in linking RORs to OceanExpert identifiers and if RORs are implemented in other relevant repositories for IOOS marine life data.
+NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions, but the current implementation of OBIS uses OceanExpert to create the institutional dashboard. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made in linking RORs to OceanExpert identifiers and if RORs are implemented in other relevant repositories for IOOS marine life data.
