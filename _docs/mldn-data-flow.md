@@ -81,7 +81,8 @@ ERDDAP provides, a data manager can develop a reproducible workflow for aligning
 there is long-term stewardship of these data, as well as meeting our PARR requirements. The sections below provide more
 context as well as tips and tricks for each of the elements in the diagram above.
 
-Datasets should be registered in the [MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and have identified next actions to take. 
+### For MBON Projects
+Datasets should be registered in the [MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and can track its progress through the data management and sharing workflows. 
 
 ## RA ERDDAP
 For the IOOS MBON projects ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with
