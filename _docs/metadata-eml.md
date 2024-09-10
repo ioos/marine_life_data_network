@@ -122,7 +122,8 @@ OBIS Institute: <https://obis.org/institute/23070> <br/>
 _To create an **OceanExpert** institution, follow the 
 [Appendix: How-to Create an OceanExpert Institution](#appendix-how-to-create-an-oceanexpert-institution)._
 
-_NOAA and IOOS DMAC encourage the use of Research Organization Registry identifiers for organizations and institutions. See the [Appendix: More Information on ROR Identifiers](#appendix-more-information-on-ror-identifiers)._
+_NOAA and IOOS DMAC encourage the use of Research Organization Registry identifiers for organizations and institutions. <br/>
+See the [Appendix: More Information on ROR Identifiers](#appendix-more-information-on-ror-identifiers)._
 
 ## Project Data
 _If including this section Title and Project Personnel are required_
