@@ -9,8 +9,8 @@ mermaid: true
 
 # MLDN Data Flow
 
-{% raw %}
-<div class="mermaid">
+```mermaid
+
 %%{
   init: {
     'theme': 'base',
@@ -26,11 +26,11 @@ mermaid: true
   }
 }%%
 
-flowchart TD
+flowchart LR
 
-A["Tabular Data 
+A["Marine Life data 
 & 
-Metadata"] 
+metadata"] 
 
 B[("Raw Data 
 Access Point
@@ -41,11 +41,7 @@ Alignment"}}
 
 D[(NCEI)]
 
-E[("IPT
-OBIS-USA")]
-
-F[/"MBON 
-Data Portal"\]
+E[("OBIS node")]
 
 G([OBIS])
 
@@ -54,56 +50,27 @@ H([GBIF])
 I[("IOOS Data Catalog
 (data.ioos.us)")]
 
-J[(NOAA OneStop)]
+FC(["Federal Catalogs/
+Products"])
 
-K[(data.gov)]
-
-L[("Commerce
-Data Hub")]
-
-M[/"IOC-UNESCO Harmful Algae Information System"\]
-
-N[/"Infographics"\]
 
 A --> B
+B -- Metadata --> I
 B --> C
-E --> D
 B --> D
+
 C --> E
 E --> G
 E --> H
-B -- If using IOOS RA ERDDAP --> I
 
-D --> FC
 I --> FC
 
-H .-> EP
-G .-> EP
-B .-> EP
-D .-> EP
+G --> FC
+H --> FC
 
 
-subgraph EP [Example Products]
-M
-N
-F
-end
-
-subgraph FC [Federal Catalogs]
-J
-K
-L
-end
-
-click D "https://www.ncei.noaa.gov" "NCEI" _blank
-click F "https://mbon.ioos.us" "MBON" _blank
-click G "https://obis.org" "OBIS" _blank
-click H "https://gbif.org" "GBIF" _blank
-click I "https://data.ioos.us" "IOOS Catalog" _blank
-click J "https://data.noaa.gov/onestop/" "NOAA OneStop" _blank
-click K "https://data.gov" "data.gov" _blank
-</div>
-{% endraw %}
+D --> FC
+```
 
 
 For data collected/managed by an IOOS MBON project, the project should ensure data and information are readily available
