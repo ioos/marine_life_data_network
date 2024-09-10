@@ -1,6 +1,7 @@
 name: User Request
 description: Submit a user request to the IOOS Marine Life Data Network
 title: "User Request: "
+labels: ["User Request"]
 body:
   - type: markdown
     attributes:
