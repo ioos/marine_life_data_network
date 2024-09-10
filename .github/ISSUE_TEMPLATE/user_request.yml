@@ -2,6 +2,9 @@ name: User Request
 description: Submit a user request to the IOOS Marine Life Data Network
 title: "User Request: "
 labels: ["User Request"]
+projects: ["ioos/9"]
+assignees:
+  - MathewBiddle
 body:
   - type: markdown
     attributes:
