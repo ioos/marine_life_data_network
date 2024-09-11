@@ -51,7 +51,9 @@ I[("IOOS Data Catalog
 (data.ioos.us)")]
 
 FC(["Federal Catalogs/
-Products"])
+Products/
+Integration with
+Environmental Obs"])
 
 
 A --> B
@@ -67,7 +69,6 @@ I --> FC
 
 G --> FC
 H --> FC
-
 
 D --> FC
 ```
