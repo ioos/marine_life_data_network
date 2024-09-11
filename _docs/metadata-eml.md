@@ -66,54 +66,22 @@ _`Role` information is also available at <https://ipt.gbif.org/manual/en/ipt/lat
 
 _Note: Stephen Formel will be listed as the `publisher` if she loads the data into the IPT for you and publishes to GBIF and/or OBIS._
 
-_Note: Mathew Biddle will be listed as the `distributor` with `US MBON` as the institution._
-
 ***For IOOS Regional Associations*** <br/>
 All IOOS Regional Association affiliated datasets should include at least one **Associated Party** which lists the proper RA. The RA names must appear the same as they are listed in OceanExpert. This allows the dataset to show up on the Regional Association’s institutional dashboard. The metrics for all linked datasets will be tracked on this dashboard.
 
-*Alaska Ocean Observing System* <br/>
-OceanExpert: <br/>
-OBIS Institute: <br/>
-
-*Caribbean Coastal Ocean Observing System* <br/>
-OceanExpert: <https://oceanexpert.org/institution/16063> <br/>
-OBIS Institute: <https://obis.org/institute/16063> <br/>
-
-*Central & Northern California Ocean Observing System* <br/>
-OceanExpert: <https://oceanexpert.org/institution/23204> <br/>
-OBIS Institute: <https://obis.org/institute/23204> <br/>
-
-*Great Lakes Observing System* <br/>
-OceanExpert: <br/>
-OBIS Institute: <br/>
-
-*Gulf of Mexico Coastal Ocean Observing System* <br/>
-OceanExpert: <https://oceanexpert.org/institution/18936> <br/>
-OBIS Institute: <https://obis.org/institute/18936> <br/>
-
-*Mid-Atlantic Coastal Ocean Observing System* <br/>
-OceanExpert: <br/>
-OBIS Institute: <br/>
-
-*Northeastern Regional Association of Coastal Ocean Observing Systems* <br/>
-OceanExpert: <https://oceanexpert.org/institution/18301> <br/>
-OBIS Institute: <https://obis.org/institute/18301> <br/>
-
-*Northwest Association of Networked Ocean Observing Systems* <br/>
-OceanExpert: <br/>
-OBIS Institute: <br/>
-
-*Pacific Islands Ocean Observing System* <br/>
-OceanExpert: <https://oceanexpert.org/institution/20188> <br/>
-OBIS Institute: <https://obis.org/institute/20188> <br/>
-
-*Southern California Coastal Ocean Observing System* <br/>
-OceanExpert: <br/>
-OBIS Institute: <br/>
-
-*Southeast Coastal Ocean Observing System* <br/>
-OceanExpert: <https://oceanexpert.org/institution/20875> <br/>
-OBIS Institute: <https://obis.org/institute/20875> <br/>
+| Regional Association | OceanExpert |  OBIS Institute |
+|---|---|---|
+| Alaska Ocean Observing System  |   |   |
+| Caribbean Coastal Ocean Observing System  | <https://oceanexpert.org/institution/16063>  | <https://obis.org/institute/16063>  |
+| Central & Northern California Ocean Observing System  | <https://oceanexpert.org/institution/23204> | <https://obis.org/institute/23204> |
+| Great Lakes Observing System  |   |   |
+| Gulf of Mexico Coastal Ocean Observing System  | <https://oceanexpert.org/institution/18936> | <https://obis.org/institute/18936> |
+| Mid-Atlantic Coastal Ocean Observing System |   |   |
+| Northeastern Regional Association of Coastal Ocean Observing Systems | <https://oceanexpert.org/institution/18301> | <https://obis.org/institute/18301> |
+| Northwest Association of Networked Ocean Observing Systems |   |   |
+| Pacific Islands Ocean Observing System | <https://oceanexpert.org/institution/20188> | <https://obis.org/institute/20188> |
+| Southern California Coastal Ocean Observing System |   |   |
+| Southeast Coastal Ocean Observing System  | <https://oceanexpert.org/institution/20875> |<https://obis.org/institute/20875> |
 
 ***For MBON*** <br/>
 All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` institutional dashboard. The metrics for your dataset will be tracked on this dashboard and combined with other MBON dataset metrics. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
@@ -121,6 +89,8 @@ All `US MBON` affiliated datasets should include at least one **Associated Party
 *United States Marine Biodiversity Observation Network* <br/>
 OceanExpert: <https://oceanexpert.org/institution/23070> <br/>
 OBIS Institute: <https://obis.org/institute/23070> <br/>
+
+_Note: Mathew Biddle will be listed as the `distributor` with `US MBON` as the institution._
 
 ***Appendices*** <br/>
 _To create an **OceanExpert** institution, follow the 
