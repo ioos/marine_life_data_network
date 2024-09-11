@@ -110,8 +110,7 @@ _If including this section Title and Project Personnel are required_
 **Design Description:** <br/>
 **Project Personnel (First Name, Last Name, Role):** <br/>
 
-***For MBON*** <br/>
-Use this statement for **Funding:** This work was supported by the U.S. Marine Biodiversity Observation Network (MBON) co-organized by NOAA, NASA, BOEM, and ONR through the National Oceanographic Partnership Program (NOPP) [(add AGENCY grant # here if required/preferred)].
+{% include note.html content="For MBON Projects, use this statement for **Funding:** `This work was supported by the U.S. Marine Biodiversity Observation Network (MBON) co-organized by NOAA, NASA, BOEM, and ONR through the National Oceanographic Partnership Program (NOPP) [(add AGENCY grant # here if required/preferred)]`.
 
 ## Sampling Methods
 _If including this section Study Extent, Sampling Description, Step Description are required)_
