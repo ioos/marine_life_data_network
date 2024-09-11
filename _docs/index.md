@@ -29,7 +29,7 @@ This website describes the recommendations for formatting and sharing data and m
 - Genetic make-up (‘omics, including informatics requirements)
   - For eDNA, please see the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management for MBON projects and the IOOS community.
 - Acoustics (active and passive)
-  - For passive acoustic monitoring, please see [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management for MBON projects and the IOOS community.
+  - For passive acoustic monitoring, please see [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
 - Imaging
 - Optics
 - Animal tracking
