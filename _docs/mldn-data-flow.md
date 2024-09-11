@@ -73,18 +73,21 @@ D --> FC
 ```
 
 
-For data collected/managed by an IOOS MBON project, the project should ensure data and information are readily available
-to resource managers, scientists, educators, and the public in an easily digestible way. To that end, coordination with
-an IOOS Regional Association to make the data available via ERDDAP services meets these goals. Using the services that
-ERDDAP provides, a data manager can develop a reproducible workflow for aligning the data to the
-[Darwin Core standard](https://dwc.tdwg.org/). Finally, submission to NCEI ensures that no observations are lost and
-there is long-term stewardship of these data, as well as meeting our PARR requirements. The sections below provide more
-context as well as tips and tricks for each of the elements in the diagram above.
+For data collected/managed by the US IOOS community, the project should ensure data and information are readily available
+to resource managers, scientists, educators, and the public in an easily digestible way. To that end, making these data 
+available via ERDDAP services meets these goals. Using the services that ERDDAP provides, a data manager can develop a 
+reproducible workflow for aligning the data to the [Darwin Core standard](https://dwc.tdwg.org/). Finally, submission to 
+NCEI ensures that no observations are lost and there is long-term stewardship of these data, as well as meeting our PARR 
+requirements. The sections below provide more context as well as tips and tricks for each of the elements in the diagram 
+above.
 
-{% include note.html content="For MBON projects, datasets should be registered in the [MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and can track its progress through the data management and sharing workflows." %}
+{% include note.html content="For MBON projects, datasets should be registered in the 
+[MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). 
+This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and can track its progress through the 
+data management and sharing workflows." %}
 
 ## RA ERDDAP
-For the IOOS MBON projects ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with
+For the IOOS DMAC ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with
 the broader community. While ERDDAP can provide data access following the FAIR principles, further alignment to Darwin
 Core and submission to OBIS is necessary to make these observations more useful to a broader audience. Essentially, serving
 data through an RA ERDDAP is one part of a larger process and should be treated as such.
@@ -161,7 +164,7 @@ distributed version control systems like [GitHub](https://www.github.com).
 
 **Recommendations TL;DR;**
 * Follow the guidance at [TDWG's Darwin Core quire reference guide](https://dwc.tdwg.org/terms/).
-* Use a scripting language.
+* Use an open source scripting language (e.g. R or Python).
 * Script should point to source data on a hosted web service.
 * Scripts should be shared via GitHub.
 
@@ -198,5 +201,6 @@ Collections (ATRAC) to submit repeating or multiple delivery data, or data that 
 * [S2N](https://www.ncei.noaa.gov/archive/send2ncei/) - Use Send2NCEI to submit non-repeating or single delivery data less than 20 GB.
 
 **Note:** NCEI and OBIS-USA have established an automated process to archive the datasets from the OBIS-USA IPT. The process archives
-the Darwin Core Archive version of the dataset and updates the NCEI Archival Information Package found at <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0250940>. While the OBIS-IPT is an extremely valuable product, the raw data should be 
-archived at NCEI as well.
+the Darwin Core Archive version of the dataset and updates the NCEI Archival Information Package found at 
+<https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0250940>. While the OBIS-IPT is an extremely valuable 
+product, the raw data should be archived at NCEI as well.
