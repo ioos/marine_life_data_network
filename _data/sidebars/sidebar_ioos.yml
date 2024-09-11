@@ -31,9 +31,6 @@ entries:
     - title: "Categories of MLDN observations"
       url: /index.html#categories-of-mbon-observations
       output: web
-    - title: "Working Group Charter"
-      url: /working-group-charter.html
-      output: web
 
 
   - title: "MLDN Data Flows"
