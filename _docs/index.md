@@ -1,5 +1,5 @@
 ---
-title: "Marine Life Data Network Requirements"
+title: "Marine Life Data Network Recommendations"
 keywords: homepage
 tags: [getting_started, about, overview]
 toc: false
@@ -9,7 +9,7 @@ summary: This documentation describes the Marine Life Data Network (MLDN) data a
 
 ## Introduction
 
-The vision of the U.S. IOOS Office Marine Life Program is to provide access to marine life observations, data and information products for management, forecasting and decision-making towards resilience and stability of living marine resources and human communities in the face of change. The IOOS Marine Life Data Network (MLDN) aims to meet the needs identified by the broader marine life observing community for access to and tools for integration and analysis of national and regional data and co-developed data visualization and information products. In the context of this data network, marine life observations and data are defined as any observations of life across multiple trophic levels (from plankton to whales and including habitat-formers such as corals, seagrasses, macroalgae, etc.) in aquatic (ocean, coast, and Great Lakes) environments. This includes any data that identify living organisms, document abundances and distributions, describe lifecycles, explore functional interactions, and document the impacts of environmental change on organisms and their communities.
+The vision of the U.S. IOOS Office [Marine Life Program](https://ioos.noaa.gov/ioos-in-action/marine-life/) is to provide access to marine life observations, data and information products for management, forecasting and decision-making towards resilience and stability of living marine resources and human communities in the face of change. The IOOS Marine Life Data Network (MLDN) aims to meet the needs identified by the broader marine life observing community for access to and tools for integration and analysis of national and regional data and co-developed data visualization and information products. In the context of this data network, marine life observations and data are defined as **any observations of life across multiple trophic levels (from plankton to whales and including habitat-formers such as corals, seagrasses, macroalgae, etc.) in aquatic (ocean, coast, and Great Lakes) environments.** This includes any data that identify living organisms, document abundances and distributions, describe lifecycles, explore functional interactions, and document the impacts of environmental change on organisms and their communities.
 
 The Marine Life Data Network will support the Program by connecting partners and users to tools and institutions that deliver marine life data and information from local to global scales. The MLDN will focus on the following goals: 
 - Expand IOOS Enterprise marine life data management and cyberinfrastructure capabilities.
@@ -17,9 +17,9 @@ The Marine Life Data Network will support the Program by connecting partners and
 - Promote common data standards, formats, and data services for marine life.
 - Coordinate a multi-disciplinary data management community of practice to advance Open Science, Open Data, and Open Software.
 
-The Marine Life Data Network builds on the successes of the U.S. Marine Biodiversity Observation Network (MBON), U.S. Animal Telemetry Network (ATN), the National Harmful Algal Bloom Observing Network (NHABON), and other marine life related efforts led by the IOOS Regional Associations. IOOS Regional Associations and other partners use a range of marine life observing methods including acoustic and satellite telemetry, still and video imagery, active and passive acoustics, remote sensing, eDNA, traditional survey methods, and automated sampling. As opposed to a central repository or data assembly center, the MLDN is a network of IOOS-recommended repositories, standards, tools, and products that make up the marine life data ecosystem and support the ocean observing system objectives of IOOS.
+The Marine Life Data Network builds on the successes of the [U.S. Marine Biodiversity Observation Network (MBON)](https://marinebon.org/us-mbon/), [U.S. Animal Telemetry Network (ATN)](https://atn.ioos.us/), the [National Harmful Algal Bloom Observing Network (NHABON)](https://ioosassociation.org/nhabon/), and other marine life related efforts led by the IOOS Regional Associations. IOOS Regional Associations and other partners use a range of marine life observing methods including acoustic and satellite telemetry, still and video imagery, active and passive acoustics, remote sensing, eDNA, traditional survey methods, and automated sampling. As opposed to a central repository or data assembly center, the MLDN is a network of IOOS-recommended repositories, standards, tools, and products that make up the marine life data ecosystem and support the ocean observing system objectives of IOOS.
 
-This website describes the recommendations for formatting and sharing data and metadata for the MLDN community. The materials presented here were developed through the MBON Data Management and Cyberinfrastructure Working Group (MBON DMAC WG). The working group charter can be found [here]({{ site.url }}/marine_life_data_network/working-group-charter.html). If you would like to contribute to this documentation, see [CONTRIBUTING.md](https://github.com/ioos/marine_life_data_network/blob/gh-pages/CONTRIBUTING.md).
+This website describes the recommendations for formatting and sharing data and metadata for the MLDN community. The materials presented here were developed through the MBON Data Management and Cyberinfrastructure Working Group (MBON DMAC WG). The working group charter can be found [here]({{ site.url }}/mbon-docs/working-group-charter.html). If you would like to contribute to this documentation, see [CONTRIBUTING.md](https://github.com/ioos/marine_life_data_network/blob/gh-pages/CONTRIBUTING.md).
 
 ## Categories of MLDN observations
 - Taxonomic data
@@ -33,7 +33,7 @@ This website describes the recommendations for formatting and sharing data and m
 - Imaging
 - Optics
 - Animal tracking
-  - For satellite telemetry data, please see the [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/) as the authoritative source for proper data management for MBON projects and the IOOS community.
+  - For satellite telemetry data, please see the [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
 
 
 
