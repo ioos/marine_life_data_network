@@ -1,6 +1,6 @@
-# mbon-docs
+# Marine Life Data Network Recommendations
 
-Guidance for Marine Biodiversity Observation Network (MBON) Data and File Formatting.
+Guidance for Marine Life Data Network Data and File Formatting.
 
 ## Contributing to the documentation
 See [CONTRIBUTING](CONTRIBUTING.md).
