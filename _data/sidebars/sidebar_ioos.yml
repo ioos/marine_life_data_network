@@ -29,7 +29,7 @@ entries:
       url: /index.html
       output: web
     - title: "Categories of MLDN observations"
-      url: /index.html#categories-of-mldn-observations
+      url: /index.html#categories-of-marine-life-observations
       output: web
 
 
