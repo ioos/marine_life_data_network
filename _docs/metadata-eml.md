@@ -64,7 +64,7 @@ _`Role` information is also available at <https://ipt.gbif.org/manual/en/ipt/lat
 | curator               | an agent that maintains and documents the specimens in a collection. Some of their duties include preparing and labeling specimens so they are ready for identification, and protecting the specimens 
 | reviewer              | person assigned to review the dataset and verify its data and/or metadata quality. This role is analogous to the role played by peer reviewers in the scholarly publication process.                  
 
-_Note: Stephen Formel will be listed as the `publisher` if she loads the data into the IPT for you and publishes to GBIF and/or OBIS._
+_Note: Stephen Formel will be listed as the `publisher` if he loads the data into the Integrated Publishing Toolkit (IPT) for you and shares to GBIF and/or OBIS._
 
 ***For IOOS Regional Associations*** <br/>
 All IOOS Regional Association affiliated datasets should include at least one **Associated Party** which lists the proper RA. The RA names must appear the same as they are listed in OceanExpert. This allows the dataset to show up on the Regional Association’s institutional dashboard. The metrics for all linked datasets will be tracked on this dashboard.
