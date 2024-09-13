@@ -54,40 +54,32 @@ I[("IOOS Data Catalog
 (data.ioos.us)
 (metadata only)")]
 
-A --> B
+A -.-> B
 B ----> I
-B --> C
-B ----> D
+B -.-> C
+B -..-> D
 
 
 
-C --> E
+C -.-> E
 E --> G
 E --> H
 E -- OBIS-USA --> D
 ```
 
+For data collected/managed by the US IOOS community, the project should ensure data and information are readily available to resource managers, scientists, educators, and the public in an easily digestible way. 
+To that end, making these data available via [ERDDAP](https://erddap.github.io/) services meets these goals and facilitates automated integration into the [IOOS Data Catalog](https://data.ioos.us/) and subsequent Federal Catalogs (eg. [Data.gov](https://data.gov/) and [NOAA OneStop](https://data.noaa.gov/onestop/)). 
+Using the services that ERDDAP provides, a data manager can develop a reproducible workflow for aligning the data which observes an animal at a place and time to the [Darwin Core standard](https://dwc.tdwg.org/) to be shared with an [OBIS node](https://obis.org/contact/) and subsequently shared to [OBIS](https://obis.org), [GBIF](https://www.gbif.org/), and (for OBIS-USA) archived at [NOAA's NCEI](https://www.ncei.noaa.gov/) through automated processes (solid arrows). 
+Finally, submission of the raw data to NCEI ensures that no observations are lost and there is long-term stewardship of the source data, as well as meeting our PARR requirements. 
+The sections below provide more context as well as tips and tricks for each of the elements in the diagram above.
 
-For data collected/managed by the US IOOS community, the project should ensure data and information are readily available
-to resource managers, scientists, educators, and the public in an easily digestible way. To that end, making these data 
-available via ERDDAP services meets these goals and facilitates automated integration into the IOOS Data Catalog. Using 
-the services that ERDDAP provides, a data manager can develop a reproducible workflow for aligning the data to the 
-[Darwin Core standard](https://dwc.tdwg.org/) to be shared with an [OBIS node](https://obis.org/contact/) and subsequently 
-shared to [OBIS](https://obis.org) and [GBIF](https://www.gbif.org/) through automated processes. Finally, submission to 
-NCEI ensures that no observations are lost and there is long-term stewardship of these data, as well as meeting our PARR 
-requirements. The sections below provide more context as well as tips and tricks for each of the elements in the diagram 
-above.
-
-{% include note.html content="For MBON projects, datasets should be registered in the 
-[MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). 
-This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and can track its progress through the 
-data management and sharing workflows." %}
+{% include note.html content="For MBON projects, datasets should be registered in the [MBON dataset registration form](https://docs.google.com/forms/d/e/1FAIpQLSfguACbLmcLiFxHKsR5W5Mv9nEfd0E8oX2rY78gdwAYTrq_zA/viewform?usp=sf_link). 
+This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and can track its progress through the data management and sharing workflows." %}
 
 ## RA ERDDAP
-For the IOOS DMAC ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with
-the broader community. While ERDDAP can provide data access following the FAIR principles, further alignment to Darwin
-Core and submission to OBIS is necessary to make these observations more useful to a broader audience. Essentially, serving
-data through an RA ERDDAP is one part of a larger process and should be treated as such.
+For IOOS DMAC, ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with the broader community. 
+While ERDDAP can provide data access following the FAIR principles, further alignment to Darwin Core and submission to OBIS is necessary to make these observations more useful to a broader audience. 
+Essentially, serving data through an ERDDAP is one part of a larger process and should be treated as such.
 
 ### Key principles for data
 When preparing a dataset to be served via ERDDAP it is recommended to follow a few key principles for data management.
@@ -101,20 +93,18 @@ When preparing a dataset to be served via ERDDAP it is recommended to follow a f
 * Latitude and Longitude in decimal degrees (WGS84 preferred)
 * Identify units of measure
 * Check species names against [WoRMS](https://www.marinespecies.org/).
-* See the sections on [Data and File Formatting](data.html) and
-[Metadata and Documentation](metadata.html) for more recommendations and best practices.
 
 **Additional Resources**
-* [Configuring datasets.xml](https://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html) - The ERDDAP manual
+* [Configuring datasets.xml](https:/erddap.github.io/setupDatasetsXml.html) - The ERDDAP manual
 for configuring a dataset.
 * [ERDDAP Quick Start Guide](https://ioos.github.io/erddap-gold-standard/) - Quick Start Guide for deploying ERDDAP in a Docker Container.
 * [ERDDAP Google Group](https://groups.google.com/g/erddap) - A great place to search for questions and ask your
 questions.
+* [ERDDAP GitHub Organization](https://github.com/erddap) - Where ERDDAP's source code can be found and a place to contribute feature requests.
 
 ### ERDDAP Requirements
 
-Below is a list of the absolute bare minimum pieces of metadata required by ERDDAP. Some dataset types might have other
-requirements specific to the data file formats.
+Below is a list of the absolute bare minimum pieces of metadata required by ERDDAP. Some dataset types might have other requirements specific to the data file formats.
 * Global attributes
   * [datasetID](https://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html#datasetID)
   * [sourceUrl](https://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html#sourceUrl) - however, depends on
@@ -153,11 +143,12 @@ resultant dataset in ERDDAP is composed of the following columns: `url`, `name`,
 ## Darwin Core alignment
 When aligning a dataset to Darwin Core it is recommended that a data manager starts with serving the data via ERDDAP
 or some comparable online system which has an [API](https://en.wikipedia.org/wiki/API) (or a way to programmatically
-grab the data). When working through the Darwin Core alignment using a scripting language (eg. R or Python) which uses
-the data served via ERDDAP (or comparable service) is highly recommended. A scripting language provides provenance,
-transparency, and reproducibility for the translation. This helps reduce the amount of errors and back-and-forth between
-data managers and OBIS. It is highly recommended that, if using a scripting language, the scripts are shared via
-distributed version control systems like [GitHub](https://www.github.com).
+grab the data) and preferrably follows some set of [OGC standards](https://www.ogc.org/standards/). When working through 
+the Darwin Core alignment using a scripting language (eg. R or Python) which uses the data served via ERDDAP (or 
+comparable service) is highly recommended. A scripting language provides provenance, transparency, and reproducibility 
+for the translation. This helps reduce the amount of errors and back-and-forth between data managers and OBIS. It is 
+highly recommended that, if using a scripting language, the scripts are shared via distributed version control systems 
+like [GitHub](https://www.github.com).
 
 **Recommendations TL;DR;**
 * Follow the guidance at [TDWG's Darwin Core quire reference guide](https://dwc.tdwg.org/terms/).
@@ -172,7 +163,10 @@ aligning datasets to Darwin Core.
 * [OBIS Manual](https://manual.obis.org/) - This manual provides an overview on how to contribute data to OBIS and how to acess data from OBIS
 
 ## Sending to OBIS-USA
-Below are the various options for sending your data to OBIS-USA.
+Below are the various options for sending your data to OBIS-USA. 
+OBIS-USA is part of an international data sharing network (Ocean Biodiversity Information System, OBIS) coordinated by the Intergovernmental Oceanographic Commission, of UNESCO (United Nations Educational, Science and Cultural Organization International Oceanographic Data and Information Exchange. 
+OBIS-USA is the US node to OBIS and uses the [Integrated Publishing Toolkit (IPT)](https://manual.obis.org/ipt) as a platform to publish data which can then be registered and automatically harvested by OBIS and GBIF. 
+For more details on the publishing process, please review the Marine Biological Data Mobilization Workshop lesson on [Metadata and Publishing](https://ioos.github.io/bio_mobilization_workshop/07-validation-and-publishing/index.html)
 
 * **Recommended**: use the [Dataset Review Request](https://github.com/ioos/bio_data_guide/issues/new/choose) issue to initialize the request.
 * Attend the monthly [Standardizing Marine Biological Data Working Group](https://github.com/ioos/bio_data_guide#monthly-meetings) meeting and discuss transfer options.
@@ -181,7 +175,8 @@ Below are the various options for sending your data to OBIS-USA.
 
 ## Sending to NCEI
 When planning on submitting data to NCEI, the data provider should coordinate submissions through the IOOS Office to 
-identify which submission system should be used. This will ensure that the dataset is appropriately identified, tracked,
+identify which submission system should be used. 
+This will ensure that the dataset is appropriately identified, tracked,
 and stewarded through the submission process.
 
 Ideally, the raw data should be archived at NCEI. Typically, this will be the dataset served through 
@@ -193,7 +188,7 @@ For more information about archiving data at NCEI, see [https://www.ncei.noaa.go
 
 Briefly, the submission package sent to NCEI should indicate that the observations are from an IOOS MBON project (or 
 has some affiliation with IOOS). Below is a short summary of the two submission systems at NCEI and their intended uses.
-* [ATRAC](https://www.ncdc.noaa.gov/atrac/guidelines.html) - Use the Advanced Tracking and Resource Tool for Archive
+* [ATRAC](https://www.ncei.noaa.gov/archive/atrac/index.html) - Use the Advanced Tracking and Resource Tool for Archive
 Collections (ATRAC) to submit repeating or multiple delivery data, or data that exceeds 20 GB.
 * [S2N](https://www.ncei.noaa.gov/archive/send2ncei/) - Use Send2NCEI to submit non-repeating or single delivery data less than 20 GB.
 
