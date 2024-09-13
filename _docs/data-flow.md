@@ -70,8 +70,10 @@ E -- OBIS-USA --> D
 
 For data collected/managed by the US IOOS community, the project should ensure data and information are readily available
 to resource managers, scientists, educators, and the public in an easily digestible way. To that end, making these data 
-available via ERDDAP services meets these goals. Using the services that ERDDAP provides, a data manager can develop a 
-reproducible workflow for aligning the data to the [Darwin Core standard](https://dwc.tdwg.org/). Finally, submission to 
+available via ERDDAP services meets these goals and facilitates automated integration into the IOOS Data Catalog. Using 
+the services that ERDDAP provides, a data manager can develop a reproducible workflow for aligning the data to the 
+[Darwin Core standard](https://dwc.tdwg.org/) to be shared with an [OBIS node](https://obis.org/contact/) and subsequently 
+shared to [OBIS](https://obis.org) and [GBIF](https://www.gbif.org/) through automated processes. Finally, submission to 
 NCEI ensures that no observations are lost and there is long-term stewardship of these data, as well as meeting our PARR 
 requirements. The sections below provide more context as well as tips and tricks for each of the elements in the diagram 
 above.
