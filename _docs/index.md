@@ -23,23 +23,24 @@ This website describes the recommendations for formatting and sharing data and m
 
 ## Categories of MLDN observations
 - Taxonomic data
-  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/mldn-data-flow.html) for sharing and standardizing data to Darwin Core. 
+  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing data to Darwin Core. 
 - Organisms abundance
-  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/mldn-data-flow.html) for sharing and standardizing data to Darwin Core. 
+  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing data to Darwin Core. 
 - Genetic make-up (‘omics, including informatics requirements)
   - For eDNA, please see the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management for MBON projects and the IOOS community.
-- Acoustics (active and passive)
+- Acoustics (passive)
   - For passive acoustic monitoring, please see [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
+- Acoustics (active)
+  - TBD
 - Imaging
+  - TBD
 - Optics
+  - TBD 
 - Animal tracking
   - For satellite telemetry data, please see the [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
 
-
-
 ## Website contents
-- [MLDN Data Flow]({{ site.url }}/marine_life_data_network/mldn-data-flow.html) - This is a summary of the Marine Life Data Network (MLDN) data flow.
+- [Data Flow]({{ site.url }}/marine_life_data_network/data-flow.html) - This is a summary of the Marine Life Data Network (MLDN) data flow.
 - [Data and File Formatting]({{ site.url }}/marine_life_data_network/data.html) - This is MLDN data recommendations.
 - [Metadata and Documentation]({{ site.url }}/marine_life_data_network/metadata.html) - This is the MLDN metadata recommendations.
 - [How to guide for MLDN Metadata]({{ site.url }}/marine_life_data_network/metadata-eml.html) - This is a how-to guide for collecting MLDN metadata.
-- [MLDN examples]({{ site.url }}/marine_life_data_network/use-case.html) - This is a collection of MLDN data flow examples.
