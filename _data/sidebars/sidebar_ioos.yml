@@ -28,7 +28,7 @@ entries:
     - title: "Introduction"
       url: /index.html
       output: web
-    - title: "Categories of marine life observations"
+    - title: "Categories of observations"
       url: /index.html#categories-of-marine-life-observations
       output: web
 
