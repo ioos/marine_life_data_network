@@ -141,20 +141,20 @@ does provide a mechanism for sharing data in other formats (eg. zip packages, Wo
 resultant dataset in ERDDAP is composed of the following columns: `url`, `name`, `lastModified`, and `size`.
 
 ## Darwin Core alignment
-When aligning a dataset to Darwin Core it is recommended that a data manager starts with serving the data via ERDDAP
-or some comparable online system which has an [API](https://en.wikipedia.org/wiki/API) (or a way to programmatically
-grab the data) and preferrably follows some set of [OGC standards](https://www.ogc.org/standards/). When working through 
-the Darwin Core alignment using a scripting language (eg. R or Python) which uses the data served via ERDDAP (or 
-comparable service) is highly recommended. A scripting language provides provenance, transparency, and reproducibility 
-for the translation. This helps reduce the amount of errors and back-and-forth between data managers and OBIS. It is 
-highly recommended that, if using a scripting language, the scripts are shared via distributed version control systems 
-like [GitHub](https://www.github.com).
+When aligning a dataset to Darwin Core it is recommended that a data manager starts with serving the data via ERDDAP or some comparable online system which has an [API](https://en.wikipedia.org/wiki/API) (or a way to programmatically grab the data) and preferrably follows some set of [OGC standards](https://www.ogc.org/standards/). 
+When working through the Darwin Core alignment using a scripting language (eg. R or Python) which uses the data served via ERDDAP (or comparable service) is highly recommended. 
+A scripting language provides provenance, transparency, and reproducibility for the translation. 
+This helps reduce the amount of errors and back-and-forth between data managers and OBIS. 
+It is highly recommended that, if using a scripting language, the scripts are shared via distributed version control systems like [GitHub](https://www.github.com).
+
+Throughout the Darwin Core alignment process, it is essential to collect as much metadata as possible about the data. We have build a [How-to guide](https://ioos.github.io/marine_life_data_network/metadata-eml.html) which describes the various metadata elements a data producer should be striving to collect. 
 
 **Recommendations TL;DR;**
 * Follow the guidance at [TDWG's Darwin Core quire reference guide](https://dwc.tdwg.org/terms/).
 * Use an open source scripting language (e.g. R or Python).
 * Script should point to source data on a hosted web service.
 * Scripts should be shared via GitHub.
+* Don't forget about the metadata. See the [How-to guide for metadata](https://ioos.github.io/marine_life_data_network/metadata-eml.html).
 
 **Additional Resources**
 * [Standardizing Marine Biological Data Guide](https://ioos.github.io/bio_data_guide/) - A guide and examples of 
