@@ -33,23 +33,23 @@ entries:
       output: web
 
 
-  - title: "MLDN Data Flows"
+  - title: "Data Flows"
     output: web
     folderitems:
     - title: "Overview"
-      url: /mldn-data-flow.html
+      url: /data-flow.html
       output: web
     - title: "RA ERDDAP"
-      url: /mldn-data-flow.html#ra-erddap
+      url: /data-flow.html#ra-erddap
       output: web
     - title: "Darwin Core Alignment"
-      url: /mldn-data-flow.html#darwin-core-alignment
+      url: /data-flow.html#darwin-core-alignment
       output: web
     - title: "Sending to OBIS-USA"
-      url: /mldn-data-flow.html#sending-to-obis-usa
+      url: /data-flow.html#sending-to-obis-usa
       output: web
     - title: "Sending to NCEI"
-      url: /mldn-data-flow.html#sending-to-ncei
+      url: /data-flow.html#sending-to-ncei
       output: web
   - title: "How to guide for MLDN metadata"
     output: web
@@ -92,13 +92,4 @@ entries:
       output: web
     - title: "Appendix: How to create an OceanExpert institution"
       url: /metadata-eml.html#appendix-how-to-create-an-oceanexpert-institution
-      output: web
-  - title: "MLDN examples"
-    output: web
-    folderitems:
-    - title: "Overview"
-      url: /use-case.html
-      output: web
-    - title: 'Gulf of Maine Wilkinson Basin Time Series Station Calanus Abundance Observations'
-      url: /use-case.html#gulf-of-maine-wilkinson-basin-time-series-station-calanus-abundance-observations
       output: web
