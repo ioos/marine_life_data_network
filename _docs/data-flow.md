@@ -7,10 +7,9 @@ summary: This is a summary of the Marine Life Data Network (MLDN) data flow for 
 mermaid: true
 ---
 
-# MLDN Data Flow
+# Marine Life Data Network Data Flow
 
 ```mermaid
-
 %%{
   init: {
     'theme': 'base',
@@ -39,38 +38,33 @@ Access Point
 C("Darwin Core
 Alignment")
 
-D[(NCEI)]
+D[("NOAA's National Centers
+for Environmental Information (NCEI)")]
 
-E[("OBIS node")]
+E[("Ocean Biodiversity
+Information System 
+node")]
 
-G([OBIS])
+G[("Ocean Biodiversity
+Information System (OBIS)")]
 
-H([GBIF])
+H[("Global Biodiversity Information Facility (GBIF)")]
 
 I[("IOOS Data Catalog
-(data.ioos.us)")]
-
-FC(["Federal Catalogs/
-Products/
-Integration with
-Environmental Obs"])
-
+(data.ioos.us)
+(metadata only)")]
 
 A --> B
-B -- Metadata --> I
+B ----> I
 B --> C
-B --> D
+B ----> D
+
+
 
 C --> E
 E --> G
 E --> H
-
-I --> FC
-
-G --> FC
-H --> FC
-
-D --> FC
+E -- OBIS-USA --> D
 ```
 
 
@@ -178,10 +172,10 @@ aligning datasets to Darwin Core.
 ## Sending to OBIS-USA
 Below are the various options for sending your data to OBIS-USA.
 
+* **Recommended**: use the [Dataset Review Request](https://github.com/ioos/bio_data_guide/issues/new/choose) issue to initialize the request.
 * Attend the monthly [Standardizing Marine Biological Data Working Group](https://github.com/ioos/bio_data_guide#monthly-meetings) meeting and discuss transfer options.
-* Contribute your dataset (and code) to the `datasets/` directory in the ioos/bio_data_guide repository ([here](https://github.com/ioos/bio_data_guide/tree/main/datasets)). See the [Contribute example applications](https://github.com/ioos/bio_data_guide/blob/main/CONTRIBUTING.md#contribute-example-applications) documentation for more information.
+* Contribute your dataset (and code) to the `datasets/` directory in the [ioos/bio_data_guide](https://github.com/ioos/bio_data_guide/) repository. See the [Contribute example applications](https://github.com/ioos/bio_data_guide/blob/main/CONTRIBUTING.md#contribute-example-applications) documentation for more information.
 * Email Darwin Core aligned files to OBIS-USA: <obis-usa@usgs.gov>.
-* Or, use the [Dataset Review Request](https://github.com/ioos/bio_data_guide/issues/new/choose) issue to initialize the request.
 
 ## Sending to NCEI
 When planning on submitting data to NCEI, the data provider should coordinate submissions through the IOOS Office to 
@@ -201,7 +195,7 @@ has some affiliation with IOOS). Below is a short summary of the two submission 
 Collections (ATRAC) to submit repeating or multiple delivery data, or data that exceeds 20 GB.
 * [S2N](https://www.ncei.noaa.gov/archive/send2ncei/) - Use Send2NCEI to submit non-repeating or single delivery data less than 20 GB.
 
-**Note:** NCEI and OBIS-USA have established an automated process to archive the datasets from the OBIS-USA IPT. The process archives
+{% include note.html content="NCEI and OBIS-USA have established an automated process to archive the datasets from the OBIS-USA IPT. The process archives
 the Darwin Core Archive version of the dataset and updates the NCEI Archival Information Package found at 
 <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0250940>. While the OBIS-IPT is an extremely valuable 
-product, the raw data should be archived at NCEI as well.
+product, the raw data should be archived at NCEI as well." %}
