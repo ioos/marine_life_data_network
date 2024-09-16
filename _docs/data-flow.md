@@ -186,8 +186,10 @@ can always go back to the source data if issues arise.
 
 For more information about archiving data at NCEI, see [https://www.ncei.noaa.gov/archive](https://www.ncei.noaa.gov/archive).
 
-Briefly, the submission package sent to NCEI should indicate that the observations are from an IOOS MBON project (or 
-has some affiliation with IOOS). Below is a short summary of the two submission systems at NCEI and their intended uses.
+Briefly, the submission package sent to NCEI should indicate that the observations have some affiliation with IOOS. 
+This will ensure there is appropriate tracking for the submission.
+
+Below is a short summary of the two submission systems at NCEI and their intended uses:
 * [ATRAC](https://www.ncei.noaa.gov/archive/atrac/index.html) - Use the Advanced Tracking and Resource Tool for Archive
 Collections (ATRAC) to submit repeating or multiple delivery data, or data that exceeds 20 GB.
 * [S2N](https://www.ncei.noaa.gov/archive/send2ncei/) - Use Send2NCEI to submit non-repeating or single delivery data less than 20 GB.
