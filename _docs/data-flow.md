@@ -77,7 +77,7 @@ The sections below provide more context as well as tips and tricks for each of t
 This will ensure that we (the IOOS Marine Life DMAC team) are aware of the dataset and can track its progress through the data management and sharing workflows." %}
 
 ## RA ERDDAP
-For IOOS DMAC, ERDDAP is used as a mechanism for quickly and efficiently sharing biological observations with the broader community. 
+For IOOS DMAC, ERDDAP is used as a mechanism for quickly and efficiently sharing observations with the broader community. 
 While ERDDAP can provide data access following the FAIR principles, further alignment to Darwin Core and submission to OBIS is necessary to make these observations more useful to a broader audience. 
 Essentially, serving data through an ERDDAP is one part of a larger process and should be treated as such.
 
