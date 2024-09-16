@@ -126,7 +126,7 @@ Time](https://coastwatch.pfeg.noaa.gov/erddap/convert/time.html#erddap) for more
 `time`. For example, in your source file the coumn `time` has a value of `2020-01-01`, but you don't want that
 interpreted by ERDDAP. Then, set the `destinationName` to `time2` and ERDDAP will treat the field as a string.
   * *Caution* - If you do not have an assigned `time` variable in a dataset, some of the access formats might not be
-available (eg. .esricsv, .odvtxt).
+available (e.g. .esricsv, .odvtxt). But, data will still be available in non geospatial formats (e.g. csv, .nc)
 * Latitude/Longitude - Similar to date/time above, it is not a requirement to have latitude/longitude variables. However,
 the dataset will have a limited amount of access formats.
 * *Trick* - ERDDAP now has the capability to create derived variables from existing fields (since v2.10). See the
