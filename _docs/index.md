@@ -26,6 +26,11 @@ The Marine Life Data Network builds on the successes of the [U.S. Marine Biodive
 This website describes the recommendations for formatting and sharing data and metadata for the MLDN community. The materials presented here were developed through the MBON Data Management and Cyberinfrastructure Working Group (MBON DMAC WG). The working group charter can be found [here]({{ site.url }}/mbon-docs/working-group-charter.html). 
 
 ## Categories of Marine Life observations
+
+At its most simplistic state, if there are observations of a **species at a place (latitude and longitude) and time** then it can be standardized to [Darwin Core](https://dwc.tdwg.org/) and shared to the [Ocean Biodiversity Information System (OBIS)](https://obis.org/) and/or the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). The Marine Life Data Network recommends following that pathway regardless of the observing method by which the data were collected. For more information about aligning data to Darwin Core, see the [Marine Biological Data Mobilization Workshop resources](https://ioos.github.io/bio_mobilization_workshop/).
+
+In some cases, there are additional pathways an observing method's data may take. Below is a short list of the various observing platforms and data management leading practices for those data types. Some are still in development and we encourage conversations on the topics.
+
 - Taxonomic data
   - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing data to Darwin Core. 
 - Organisms abundance
