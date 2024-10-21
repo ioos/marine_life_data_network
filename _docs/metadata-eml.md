@@ -8,7 +8,7 @@ summary: This is a how-to guide for collecting MLDN metadata.
 The information below can also be viewed as a Microsoft Word document [here](https://github.com/ioos/marine_life_data_network/raw/gh-pages/assets/EML.Metadata.Template.docx).
 
 # EML Metadata
-<mark>Highlighted elements are required</mark> 
+<mark>Highlighted elements are required.</mark> Definitions and guidance for each metadata element can be found on the GBIF IPT User Manual, [on this page](https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#metadata-elements)
 <br/>
 <br/>
 **<mark>Dataset shortname (will be the URL in the IPT, all lower case, no spaces):</mark>** <br/>
