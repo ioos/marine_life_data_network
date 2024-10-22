@@ -69,15 +69,15 @@ _Note: Stephen Formel will be listed as the `publisher` if he loads the data int
 ***For IOOS Regional Associations*** <br/>
 All IOOS Regional Association affiliated datasets should include at least one **Associated Party** which lists the proper RA. The RA names must appear the same as they are listed in OceanExpert. This allows the dataset to show up on the Regional Association’s institutional dashboard. The metrics for all linked datasets will be tracked on this dashboard.
 
-| Regional Association | OceanExpert |  OBIS Institute |
-|---|---|---|
+| Regional Association | OceanExpert |  OBIS Institute | [ROR](https://www.ror.org/) |
+|---|---|---|---|
 | Alaska Ocean Observing System  |   |   |
 | Caribbean Coastal Ocean Observing System  | <https://oceanexpert.org/institution/16063>  | <https://obis.org/institute/16063>  |
 | Central & Northern California Ocean Observing System  | <https://oceanexpert.org/institution/23204> | <https://obis.org/institute/23204> |
-| Great Lakes Observing System  |   |   |
+| Great Lakes Observing System  |   |   | <https://ror.org/036ftwn63> |
 | Gulf of Mexico Coastal Ocean Observing System  | <https://oceanexpert.org/institution/18936> | <https://obis.org/institute/18936> |
 | Mid-Atlantic Coastal Ocean Observing System |   |   |
-| Northeastern Regional Association of Coastal Ocean Observing Systems | <https://oceanexpert.org/institution/18301> | <https://obis.org/institute/18301> |
+| Northeastern Regional Association of Coastal Ocean Observing Systems | <https://oceanexpert.org/institution/18301> | <https://obis.org/institute/18301> | <https://ror.org/05ackpy69> |
 | Northwest Association of Networked Ocean Observing Systems |   |   |
 | Pacific Islands Ocean Observing System | <https://oceanexpert.org/institution/20188> | <https://obis.org/institute/20188> |
 | Southern California Coastal Ocean Observing System |   |   |
