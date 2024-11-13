@@ -27,26 +27,33 @@ This website describes the recommendations for formatting and sharing data and m
 
 ## Categories of Marine Life observations
 
-At its most simplistic state, observations of a **species at a place (latitude and longitude) and time** can be standardized to [Darwin Core](https://dwc.tdwg.org/) and shared to the [Ocean Biodiversity Information System (OBIS)](https://obis.org/) and/or the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). The Marine Life Data Network recommends following that pathway regardless of the observing method by which the data were collected. For more information about aligning data to Darwin Core, see the [Marine Biological Data Mobilization Workshop resources](https://ioos.github.io/bio_mobilization_workshop/).
+At its most simplistic state, observations of a **species at a place (latitude and longitude) and time** can be standardized to [Darwin Core](https://dwc.tdwg.org/) and shared to the [Ocean Biodiversity Information System (OBIS)](https://obis.org/) and/or the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). 
+The Marine Life Data Network recommends following that pathway regardless of the observing method by which the data were collected. 
+For more information about aligning data to Darwin Core, see the [Marine Biological Data Mobilization Workshop resources](https://ioos.github.io/bio_mobilization_workshop/).
 
-In some cases, there are additional pathways an observing method's data may take. Below is a short list of the various observing platforms and data management leading practices for those data types. Some are still in development and we encourage conversations on the topics by contributing [issues](https://github.com/ioos/marine_life_data_network/issues/new) to this repository.
+In some cases, there are additional pathways an observing method's data may take. Below is a short list of the various observing platforms and data management leading practices for those data types. 
+Some are still in development and we encourage conversations on the topics by contributing [issues](https://github.com/ioos/marine_life_data_network/issues/new) to this repository.
 
-- Taxonomic data
-  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing data to Darwin Core. 
-- Organisms abundance
-  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing data to Darwin Core. 
-- Genetic make-up (‘omics, including informatics requirements)
-  - For eDNA, please see the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management for MBON projects and the IOOS community.
-- Acoustics (passive)
-  - For passive acoustic monitoring, please see [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
-- Acoustics (active)
-  - TBD
-- Imaging
-  - TBD
-- Optics
-  - TBD 
-- Animal tracking
-  - For satellite telemetry data, please see the [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
+- Species observation (high level data pathway)
+  - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing any data that observes a species at a location and time to Darwin Core. 
+- Genetic make-up (‘Omics, eDNA)
+  - See the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management.
+- Passive Acoustic Monitoring (PAM)
+  - See [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
+- Satellite telemetry
+  - See [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
+- Acoustic telemetry
+  - Work with the appropriate [Ocean Tracking Network](https://oceantrackingnetwork.org/) Node in your region. Below is a non-comprehensive list of the nodes which IOOS Regional Associations can work with:
+  
+    | Node | Region | Web Address
+    |------|--------|------------
+    | FACT | Southeast US | <https://secoora.org/fact/>
+    | ACT | Mid-Atlantic to Northeast US | <https://www.theactnetwork.com/>
+    | iTAG | Gulf of Mexico | <https://myfwc.com/research/saltwater/telemetry/itag/>
+    | PIRAT | Pacific Islands | <https://piratnetwork.org/>
+    | GLATOS | Great Lakes | <https://glatos.glos.us/>
+- Plankton Imaging
+  - Imaging Flow CytoBot (IFCB) - TBD
 
 ## Website contents
 - [Data Flow]({{ site.url }}/marine_life_data_network/data-flow.html) - This is a summary of the Marine Life Data Network (MLDN) data flow.
