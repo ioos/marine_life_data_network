@@ -38,11 +38,11 @@ Some are still in development and we encourage conversations on the topics by co
   - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing any data that observes a species at a location and time to Darwin Core. 
 - &#129516; Genetic make-up (‘Omics, eDNA)
   - See the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management.
-- &#128066; Passive Acoustic Monitoring (PAM)
+- &#127908; Passive Acoustic Monitoring (PAM)
   - See [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
 - &#128752; Satellite telemetry
   - See [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
-- &#128362; Acoustic telemetry
+- &#128266; Acoustic telemetry
   - Work with the appropriate [Ocean Tracking Network](https://oceantrackingnetwork.org/) Node in your region. Below is a non-comprehensive list of the nodes which IOOS Regional Associations can work with:
   
     | Node | Region | Web Address
@@ -52,6 +52,7 @@ Some are still in development and we encourage conversations on the topics by co
     | iTAG | Gulf of Mexico | <https://myfwc.com/research/saltwater/telemetry/itag/>
     | PIRAT | Pacific Islands | <https://piratnetwork.org/>
     | GLATOS | Great Lakes | <https://glatos.glos.us/>
+    | N-PACT | Northeast Pacific | <https://npact.aoos.org/> 
 - &#128248; Plankton Imaging
   - Imaging Flow CytoBot (IFCB) - TBD
 
