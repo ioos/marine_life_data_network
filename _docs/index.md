@@ -54,9 +54,9 @@ Some are still in development and we encourage conversations on the topics by co
     | iTAG | Gulf of Mexico | <https://myfwc.com/research/saltwater/telemetry/itag/>
     | PIRAT | Pacific Islands | <https://piratnetwork.org/>
     | GLATOS | Great Lakes | <https://glatos.glos.us/>
-    | N-PACT | Northeast Pacific | <https://npact.aoos.org/> 
+    | N-PAcT | Northeast Pacific | <https://npact.aoos.org/> 
 - &#128248; Plankton Imaging
-  - Imaging Flow CytoBot (IFCB) - TBD
+  - Imaging Flow CytoBot (IFCB) - [Prototype workflow](https://github.com/CeNCOOS/OBIS_workshop_2024_IFCB) from CeNCOOS to generate a Darwin Core archive.
 
 ## Website contents
 - [Data Flow]({{ site.url }}/marine_life_data_network/data-flow.html) - This is a summary of the Marine Life Data Network (MLDN) data flow.
