@@ -38,6 +38,8 @@ Some are still in development and we encourage conversations on the topics by co
   - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing any data that observes a species at a location and time to Darwin Core. 
 - &#129516; Genetic make-up (‘Omics, eDNA)
   - See the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management.
+  - For lab protocols, see the [NOAA Omics Technical Portal](https://noaa-omics-technical-portal.readthedocs.io/en/latest/).
+  - See the [FAIR eDNA](https://fair-edna.github.io/index.html) metadata checklist, which integrates existing data standards and introduces new terms tailored to eDNA workflows.
 - &#127908; Passive Acoustic Monitoring (PAM)
   - See [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
 - &#128752; Satellite telemetry
