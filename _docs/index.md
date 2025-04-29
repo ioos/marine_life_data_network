@@ -7,6 +7,8 @@ toc: false
 summary: This documentation describes the Marine Life Data Network (MLDN) data and file formatting recommendations.
 ---
 
+[![DOI](https://zenodo.org/badge/782681827.svg)](https://doi.org/10.5281/zenodo.15304057)
+
 ## Contribute to Marine Life Data Network Recommendations
 
 All of the content for this website is managed through Markdown documents found in the respective [GitHub repository](https://github.com/ioos/marine_life_data_network/tree/gh-pages). If you would like to contribute to this documentation, use the `Edit me` button above to suggest changes. If you would like to raise concerns about the guidance, or need clarification, please create an appropriate [issue](https://github.com/ioos/marine_life_data_network/issues/new). For more guidance on contributing to these recommendations, see our [CONTRIBUTING](https://github.com/ioos/marine_life_data_network/blob/gh-pages/CONTRIBUTING.md) guide.
