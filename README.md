@@ -2,6 +2,8 @@
 
 Guidance for Marine Life Data Network Data and File Formatting.
 
+[![DOI](https://zenodo.org/badge/782681827.svg)](https://doi.org/10.5281/zenodo.15304057)
+
 ## Contributing to the documentation
 See [CONTRIBUTING](CONTRIBUTING.md).
 
