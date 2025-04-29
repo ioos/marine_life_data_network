@@ -7,7 +7,15 @@ toc: false
 summary: This documentation describes the Marine Life Data Network (MLDN) data and file formatting recommendations.
 ---
 
-[![DOI](https://zenodo.org/badge/782681827.svg)](https://doi.org/10.5281/zenodo.15304057)
+How to cite:
+
+```
+Biddle, M., Brenskelle, L., & Canonico, G. (2025). Marine Life Data Network Recommendations (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.15304225
+```
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15304225.svg)](https://doi.org/10.5281/zenodo.15304225)
+
+
 
 ## Contribute to Marine Life Data Network Recommendations
 
