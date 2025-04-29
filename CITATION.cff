@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Marine Life Data Network Recommendations
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mathew
+    family-names: Biddle
+    orcid: 'https://orcid.org/0000-0003-4897-1669'
+  - given-names: Laura
+    family-names: Brenskelle
+    orcid: 'https://orcid.org/0000-0002-9284-8871'
+  - given-names: Gabrielle
+    family-names: Canonico
+    orcid: 'https://orcid.org/0000-0003-4251-896X'
+url: 'https://ioos.github.io/marine_life_data_network/'
+abstract: >-
+  All of the content for this website is managed through
+  Markdown documents found in the respective GitHub
+  repository. If you would like to contribute to this
+  documentation, use the Edit me button above to suggest
+  changes. If you would like to raise concerns about the
+  guidance, or need clarification, please create an
+  appropriate issue. For more guidance on contributing to
+  these recommendations, see our CONTRIBUTING guide.
+license: CC0-1.0
+commit: v1.0.0
+date-released: '2025-04-29'
