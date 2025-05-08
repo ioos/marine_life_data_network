@@ -96,6 +96,9 @@ _Note: Mathew Biddle will be listed as the `distributor` with `US MBON` as the i
 _To create an **OceanExpert** institution, follow the 
 [Appendix: How-to Create an OceanExpert Institution](#appendix-how-to-create-an-oceanexpert-institution)._
 
+_To link datasets to an existing **OceanExpert** institution, follow the
+[Appendix: How-to Link OBIS datasets together through an institution page](#appendix-how-to-link-obis-datasets-together-through-an-institution-page)._
+
 _NOAA and IOOS DMAC encourage the use of Research Organization Registry identifiers for organizations and institutions. <br/>
 See the [Appendix: More Information on ROR Identifiers](#appendix-more-information-on-ror-identifiers)._
 
@@ -160,6 +163,15 @@ To create an **OceanExpert** institution:
 6. That should add the institution to the drop down list for `Organisation/Institution/Company` so that you can associate it with your profile.
 
 To edit **OceanExpert** institution pages, send an email to <mailto:info@oceanexpert.org> with the requested changes.
+
+## Appendix: How-to Link OBIS datasets together through an institution page
+
+Once your appropriate institution has an **OceanExpert** record, follow the steps below to ensure the appropriate dataset records are linked to the appropriate institution.
+
+1. In the [OBIS-USA IPT](https://ipt-obis.gbif.us/) metadata, add an appropriate _Contact_ which lists the name of the institution exactly as it is listed on **OceanExpert**.
+   1. For example, to link datasets to the [US MBON institution](https://obis.org/institute/23070), in the OBIS-USA IPT, a contact is added with the Organization: `United States Marine Biodiversity Observation Network (US MBON)`.
+2. Save and publish the record.
+3. The **Data providers** section of the OBIS metadata record should now list the appropriate institution with a hyperlink to the OBIS institution record and OceanExpert ID.
 
 ## Appendix: More information on ROR identifiers
 NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions, but the current implementation of OBIS uses OceanExpert to create the institutional dashboard. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made in linking RORs to OceanExpert identifiers and if RORs are implemented in other relevant repositories for IOOS marine life data.
