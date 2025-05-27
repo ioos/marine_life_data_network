@@ -5,6 +5,7 @@ tags: [getting_started, about, overview]
 toc: false
 #permalink: index.html
 summary: This documentation describes the Marine Life Data Network (MLDN) data and file formatting recommendations.
+mermaid: true
 ---
 
 How to cite:
@@ -44,17 +45,221 @@ For more information about aligning data to Darwin Core, see the [Marine Biologi
 In some cases, there are additional pathways an observing method's data may take. Below is a short list of the various observing platforms and data management leading practices for those data types. 
 Some are still in development and we encourage conversations on the topics by contributing [issues](https://github.com/ioos/marine_life_data_network/issues/new) to this repository.
 
-- &#128031; Species observation (high level data pathway)
+### &#128031; Species observation (high level data pathway)
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+flowchart LR
+
+A["Marine Life data\n&\nmetadata"] 
+B[("Raw Data\nAccess Point\n(eg. RA ERDDAP)")]
+C("Darwin Core\nAlignment")
+D[("NOAA's National Centers\nfor Environmental Information (NCEI)")]
+E[("Ocean Biodiversity\nInformation System\nnode")]
+G[("Ocean Biodiversity\nInformation System (OBIS)")]
+H[("Global Biodiversity Information Facility (GBIF)")]
+I[("IOOS Data Catalog\n(data.ioos.us)\n(metadata only)")]
+
+A -.-> B
+B ----> I
+B -.-> C
+B -..-> D
+
+C -.-> E
+E --> G
+E --> H
+E -- OBIS-USA --> D
+```
+
   - See the [MLDN data flow](https://ioos.github.io/marine_life_data_network/data-flow.html) for sharing and standardizing any data that observes a species at a location and time to Darwin Core. 
-- &#129516; Genetic make-up (‘Omics, eDNA)
+
+### &#129516; Genetic make-up (‘Omics, eDNA)
+
+![](https://noaa-omics-dmg.readthedocs.io/en/latest/assets/20240204_mermaid_eDNA_workflow_ndmc.png)
+
   - See the [NOAA Omics Data Management Guide](https://noaa-omics-dmg.readthedocs.io/en/latest/) as the authoritative source for proper data management.
   - For lab protocols, see the [NOAA Omics Technical Portal](https://noaa-omics-technical-portal.readthedocs.io/en/latest/).
   - See the [FAIR eDNA](https://fair-edna.github.io/index.html) metadata checklist, which integrates existing data standards and introduces new terms tailored to eDNA workflows.
-- &#127908; Passive Acoustic Monitoring (PAM)
+
+### &#127908; Passive Acoustic Monitoring (PAM)
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+flowchart TD
+
+pA(("passive\nacoustic\nmonitoring"))
+A[("hydrophone")]
+B("PassivePacker")
+C("Darwin Core\nAlignment")
+D[("National Centers\nfor\nEnvironmental Information\n(NCEI)")]
+E[("IPT\nOBIS-USA")]
+G([OBIS])
+H([GBIF])
+J([NOAA OneStop])
+K([data.gov])
+L(["Commerce\nData Hub"])
+R[/"NCEI Passive Acoustic Data Portal"\]
+
+
+pA --> A
+A -- species detections\n+\nsound propagation--> C
+A -- raw\nand\nprocessed\ndata --> B
+C --> E
+E --> D
+E --> G
+E --> H
+B --> D
+
+D --> FC
+
+D --> R
+
+subgraph FC [Federal Catalogs]
+J
+K
+L
+end
+```
+
   - See [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
-- &#128752; Satellite telemetry
+
+### &#128752; Satellite telemetry
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+flowchart TD
+
+A([Satellite Tag Deployment])
+B([ATN])
+D([NCEI])
+E([Darwin Core Alignment])
+F([IPT OBIS-USA])
+G([ATN Portal])
+H([NDBC])
+I([GTS])
+J[(NOAA OneStop)]
+K[(data.gov)]
+L[("Commerce\nData Hub")]
+M[("IOOS Data Catalog\n(data.ioos.us)")]
+
+A --> B
+B -- Data released from embargo --> D
+D .-> E
+D --> FC
+E .-> F
+B --> G
+B -- Profiling Tags --> H
+B .->|Data released from embargo| M
+M --> FC
+H --> I
+F --collection--> D
+
+subgraph FC [U.S. Federal Catalogs]
+J
+K
+L
+end
+
+```
+
   - See [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
-- &#128266; Acoustic telemetry
+
+### &#128266; Acoustic telemetry
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+flowchart TD
+
+A["Acoustic Tag"] 
+B[("OTN\nRegional Node(s)\neg. ACT\nFACT\nGLATOS\netc")]
+C("Darwin Core\nAlignment")
+D[(NCEI)]
+E[("OTN IPT\nOBIS-oceantrack")]
+P[("OTN ERDDAP\nor\nOTN node\ndatabase\nconnection\nor\nOTN GeoServer")]
+G([OBIS])
+H([GBIF])
+I[("IOOS Data Catalog\n(data.ioos.us)")]
+J[(NOAA OneStop)]
+K[(data.gov)]
+L[("Commerce\nData Hub")]
+
+A --> B
+B -- Data Push --> C
+B -. Data Push .-> D
+B -. option? .-> I
+P -. option? .-> I
+C --> E
+E --> G
+E .-> H
+
+D --> FC
+I --> FC
+
+B -->P
+
+subgraph FC [U.S. Federal Catalogs]
+J
+K
+L
+end
+```
+
   - Work with the appropriate [Ocean Tracking Network](https://oceantrackingnetwork.org/) Node in your region. Below is a non-comprehensive list of the nodes which IOOS Regional Associations can work with:
   
     | Node | Region | Web Address
@@ -65,8 +270,31 @@ Some are still in development and we encourage conversations on the topics by co
     | PIRAT | Pacific Islands | <https://piratnetwork.org/>
     | GLATOS | Great Lakes | <https://glatos.glos.us/>
     | N-PAcT | Northeast Pacific | <https://npact.aoos.org/> 
-- &#128248; Plankton Imaging
+
+
+### &#128248; Plankton Imaging
   - Imaging Flow CytoBot (IFCB) - [Prototype workflow](https://github.com/CeNCOOS/OBIS_workshop_2024_IFCB) from CeNCOOS to generate a Darwin Core archive.
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+flowchart TD
+
+A["imagery?"]
+```
 
 ## Website contents
 - [Data Flow]({{ site.url }}/marine_life_data_network/data-flow.html) - This is a summary of the Marine Life Data Network (MLDN) data flow.
