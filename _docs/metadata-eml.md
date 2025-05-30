@@ -43,7 +43,7 @@ Scientific Name, Common Name, Taxon Rank for all species or at higher level if a
 
 **Associated Party (include First Name, Last Name, Position, Organization, Email, can link to ORCID):** <br/>
 **Associated Party Role (pick one per person from table below):** <br/>
-_`Role` information is also available at <https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#associated-parties>._
+_`Role` information is also available at <https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#contacts>._
 
 | **Role**              | **Description**                                                                                                                                                                                           
 |:----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
