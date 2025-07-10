@@ -2,6 +2,7 @@ name: New Task
 description: Request a new task in the IOOS Marine Life Data Network
 title: "New Task: "
 labels: ["new task"]
+projects: ["ioos/9"]
 body:
   - type: markdown
     attributes:
