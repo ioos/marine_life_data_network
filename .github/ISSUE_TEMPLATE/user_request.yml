@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: To submit a user request to the IOOS Marine Life Data Network, please feel out the issue template below.
+      value: To submit a user request to the IOOS Marine Life Data Network, please fill out the issue template below.
   - type: input
     id: who
     attributes:
