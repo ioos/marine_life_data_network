@@ -241,8 +241,8 @@ etc")]
 %% Q[(ATN Acoustic Data Mirror/
 %% FedNode??)]
 
-C{{"Darwin Core
-Alignment"}}
+C([Darwin Core
+Alignment])
 
 D[(NCEI)]
 
