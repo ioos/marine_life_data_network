@@ -93,3 +93,6 @@ entries:
     - title: "Appendix: How to create an OceanExpert institution"
       url: /metadata-eml.html#appendix-how-to-create-an-oceanexpert-institution
       output: web
+    - title: "Appendix: Current recommendations for ROR identifiers"
+      url: /metadata-eml.html#appendix-current-recommendations-for-ror-identifiers
+      output: web
