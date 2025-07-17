@@ -174,7 +174,9 @@ Once your appropriate institution has an **OceanExpert** record, follow the step
 3. The **Data providers** section of the OBIS metadata record should now list the appropriate institution with a hyperlink to the OBIS institution record and OceanExpert ID.
 
 ## Appendix: Current recommendations for ROR identifiers
-NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made. If your RA has a newly minted ROR identifier, please let the IOOS DMAC team know by reaching out to data.ioos@noaa.gov to ensure documentation has been updated. If you have recommendations for more ways to implement ROR identifiers in IOOS metadata or how we can better use ROR identifiers to track RA output metrics, please reach out to the IOOS DMAC group.
+NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made.
+
+If your RA has a newly minted ROR identifier, please let the IOOS DMAC team know by reaching out to data.ioos@noaa.gov to ensure documentation has been updated. If you have recommendations for more ways to implement ROR identifiers in IOOS metadata or how we can better use ROR identifiers to track RA output metrics, please reach out to the IOOS DMAC group.
 
 ### Marine Life metadata
 The current implementation of OBIS uses OceanExpert to create the institutional dashboard. There are open requests to OBIS/OceanExpert and [GBIF](https://github.com/gbif/ipt/issues/2373) to enable the use of RORs that are being monitored by the IOOS DMAC team.
