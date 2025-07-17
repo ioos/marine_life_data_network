@@ -173,5 +173,49 @@ Once your appropriate institution has an **OceanExpert** record, follow the step
 2. Save and publish the record.
 3. The **Data providers** section of the OBIS metadata record should now list the appropriate institution with a hyperlink to the OBIS institution record and OceanExpert ID.
 
-## Appendix: More information on ROR identifiers
-NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions, but the current implementation of OBIS uses OceanExpert to create the institutional dashboard. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made in linking RORs to OceanExpert identifiers and if RORs are implemented in other relevant repositories for IOOS marine life data.
+## Appendix: Current recommendations for ROR identifiers
+NOAA and IOOS DMAC encourage the use of [Research Organization Registry](https://ror.org/) (ROR) identifiers for institutions. For more information about ROR identifiers and IOOS recommendations, see the [August 2024 DMAC tech webinar recording](https://youtu.be/P1WzR0twg_U). The documentation here regarding institution identifiers will be updated with new guidance when advances are made. If your RA has a newly minted ROR identifier, please let the IOOS DMAC team know by reaching out to data.ioos@noaa.gov to ensure documentation has been updated. If you have recommendations for more ways to implement ROR identifiers in IOOS metadata or how we can better use ROR identifiers to track RA output metrics, please reach out to the IOOS DMAC group.
+
+### Marine Life metadata
+The current implementation of OBIS uses OceanExpert to create the institutional dashboard. There are open requests to OBIS/OceanExpert and [GBIF](https://github.com/gbif/ipt/issues/2373) to enable the use of RORs that are being monitored by the IOOS DMAC team.
+
+### RA collection metadata at NCEI
+For all of the IOOS RAs that have RORs, these identifiers have been included into the ISO 19115-2 metadata for the [RA collection at NCEI](https://ioos.github.io/ncei-archiving-cookbook/#current-archive-collections-at-ncei). If your RA has a newly minted ROR that you would like to include in the NCEI ISO metadata, please reach out to the IOOS DMAC group to let us know. Below is an example for how RORs appear in the ISO 19115-2 metadata.
+
+```xml
+<gmd:citedResponsibleParty>
+   <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+         <gmx:Anchor xlink:href="https://ror.org/028paz341" xlink:actuate="onRequest">Central and Northern California Ocean Observing System (CeNCOOS)</gmx:Anchor>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+         <gmd:CI_Contact>
+            <gmd:onlineResource>
+               <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                     <gmd:URL>https://www.cencoos.org/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                     <gco:CharacterString>HTTPS</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                     <gco:CharacterString>Central and Northern California Ocean Observing System (CeNCOOS) website</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                     <gco:CharacterString>Institution web page</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                     <gmd:CI_OnLineFunctionCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+               </gmd:CI_OnlineResource>
+            </gmd:onlineResource>
+         </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+         <gmd:CI_RoleCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="contributor">contributor</gmd:CI_RoleCode>
+      </gmd:role>
+   </gmd:CI_ResponsibleParty>
+</gmd:citedResponsibleParty>
+```
+<!--- ### RA ERDDAP metadata
+*coming soon* --->
