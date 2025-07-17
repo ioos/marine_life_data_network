@@ -209,6 +209,7 @@ end
 ### &#128266; Acoustic telemetry
 
 ```mermaid
+
 %%{
   init: {
     'theme': 'base',
@@ -227,26 +228,59 @@ end
 flowchart TD
 
 A["Acoustic Tag"] 
-B[("OTN\nRegional Node(s)\neg. ACT\nFACT\nGLATOS\netc")]
-C("Darwin Core\nAlignment")
+
+B[("OTN
+Regional Node(s)
+eg. ACT
+FACT
+GLATOS
+etc")]
+
+%% B[("OTN")]
+
+%% Q[(ATN Acoustic Data Mirror/
+%% FedNode??)]
+
+C{{"Darwin Core
+Alignment"}}
+
 D[(NCEI)]
-E[("OTN IPT\nOBIS-oceantrack")]
-P[("OTN ERDDAP\nor\nOTN node\ndatabase\nconnection\nor\nOTN GeoServer")]
+
+E[("OTN IPT
+OBIS-oceantrack")]
+
+P[("OTN ERDDAP
+or
+OTN node
+database
+connection
+or
+OTN GeoServer")]
+
 G([OBIS])
+
 H([GBIF])
-I[("IOOS Data Catalog\n(data.ioos.us)")]
+
+I[("IOOS Data Catalog
+(data.ioos.us)")]
+
 J[(NOAA OneStop)]
+
 K[(data.gov)]
-L[("Commerce\nData Hub")]
+
+L[("Commerce
+Data Hub")]
 
 A --> B
-B -- Data Push --> C
-B -. Data Push .-> D
-B -. option? .-> I
-P -. option? .-> I
+B -- OTN Node Data Push --> C
+%% B .-> Q
+%% Q .-> D
+B -. OTN Node Data Push .-> D
+%% B -. option? .-> I
+%% P -. option? .-> I
 C --> E
 E --> G
-E .-> H
+E --> H
 
 D --> FC
 I --> FC
