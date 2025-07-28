@@ -309,6 +309,8 @@ end
 ### &#128248; Plankton (Image-Based and Non)
   - Imaging Flow CytoBot (IFCB) - [Prototype workflow](https://github.com/CeNCOOS/OBIS_workshop_2024_IFCB) from CeNCOOS to generate a Darwin Core archive.
 
+```mermaid
+
 %%{
   init: {
     'theme': 'base',
