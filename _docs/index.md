@@ -306,10 +306,9 @@ end
     | N-PAcT | Northeast Pacific | <https://npact.aoos.org/> 
 
 
-### &#128248; Plankton Imaging
+### &#128248; Plankton (Image-Based and Non)
   - Imaging Flow CytoBot (IFCB) - [Prototype workflow](https://github.com/CeNCOOS/OBIS_workshop_2024_IFCB) from CeNCOOS to generate a Darwin Core archive.
 
-```mermaid
 %%{
   init: {
     'theme': 'base',
@@ -325,9 +324,33 @@ end
   }
 }%%
 
-flowchart TD
+flowchart LR
 
-A["imagery?"]
+A["Raw plankton observation<br/>data & metadata"]
+B["Data access point<br/>(e.g. RA ERDDAP)"]
+C[/Darwin Core<br/>alignment/]
+D[/AI Classifier/]
+E[("NOAA's National Centers for Environmental Information<br/>(NCEI)")]
+F["Ocean Biodiversity Information System node (IPT)"]
+G[("Global Biodiversity Information Facility (GBIF)")]
+H[("Ocean Biodiversity Information System (OBIS)")]
+I["IOOS Data Catalog<br/>(data.ioos.us)<br/>(metadata only)"]
+J["Harmful Algal Bloom (HAB) Products<br/>(e.g. NHABON, HABDAC, etc.)"]
+K[("Image Archive<br/>(e.g. FathomNet)")]
+
+A -->|not image-based| B
+A -->|if image-based| D
+D --> K
+K -. Imagery data<br/>& metadata .-> E
+K -- Biological data<br/>& metadata --> B
+B --> C
+B --> I
+B -.->|HAB species only| J
+B -.-> E
+C --> F
+F --> G
+F --> H
+F -- OBIS-USA --> E
 ```
 
 ## Website contents
