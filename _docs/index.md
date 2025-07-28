@@ -326,7 +326,7 @@ end
   }
 }%%
 
-flowchart LR
+flowchart TD
 
 A["Raw plankton observation<br/>data & metadata"]
 B["Data access point<br/>(e.g. RA ERDDAP)"]
