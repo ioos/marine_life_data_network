@@ -14,7 +14,7 @@ The information below can also be viewed as a Microsoft Word document [here](htt
 **<mark>Dataset shortname (will be the URL in the IPT, all lower case, no spaces):</mark>** <br/>
 **<mark>Title:</mark>** <br/>
 **Update Frequency (pick one):** Daily, Weekly, Monthly, Biannually, Annually, As Needed, Continually, Irregular, Not Planned, Unknown, Other Maintenance Period <br/>
-**<mark>Data License (pick one):</mark>** CC-0, CC-BY, CC-BY-NC <br/>
+**<mark>Data License (pick one):</mark>** CC-0, CC-BY, CC-BY-NC. _Note, NCEI will accept CC-0 and CC-BY but not CC-BY-NC so those datasets do not get archived at NCEI. Also worth noting that data with a CC-BY-NC license was not included in the GBIF cloud exports and so is not available to people who want to access the data via AWS or other cloud instances. See [this issue](https://github.com/ioos/mbon-docs/issues/34) for more discussion on the data license topic._<br/>
 **<mark>Description / Abstract:</mark>** <br/>
 **<mark>Resource Contacts (include First Name, Last Name, Position, Organization, Email, can link to ORCID):</mark>** <br/>
 **<mark>Resource Creators (include First Name, Last Name, Position, Organization, Email, can link to ORCID):</mark>** <br/>
