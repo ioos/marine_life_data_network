@@ -65,14 +65,14 @@ Some are still in development and we encourage conversations on the topics by co
 
 flowchart LR
 
-A["Marine Life data\n&\nmetadata"] 
-B[("Raw Data\nAccess Point\n(eg. RA ERDDAP)")]
-C("Darwin Core\nAlignment")
-D[("NOAA's National Centers\nfor Environmental Information (NCEI)")]
-E[("Ocean Biodiversity\nInformation System\nnode")]
-G[("Ocean Biodiversity\nInformation System (OBIS)")]
+A["Marine Life data & metadata"] 
+B[("Raw Data Access Point (eg. RA ERDDAP)")]
+C("Darwin Core Alignment")
+D[("NOAA's National Centers for Environmental Information (NCEI)")]
+E[("Ocean Biodiversity Information System node")]
+G[("Ocean Biodiversity Information System (OBIS)")]
 H[("Global Biodiversity Information Facility (GBIF)")]
-I[("IOOS Data Catalog\n(data.ioos.us)\n(metadata only)")]
+I[("IOOS Data Catalog (data.ioos.us) (metadata only)")]
 
 A -.-> B
 B ----> I
@@ -115,23 +115,23 @@ E -- OBIS-USA --> D
 
 flowchart TD
 
-pA(("passive\nacoustic\nmonitoring"))
+pA(("passive acoustic monitoring"))
 A[("hydrophone")]
 B("PassivePacker")
-C("Darwin Core\nAlignment")
-D[("National Centers\nfor\nEnvironmental Information\n(NCEI)")]
-E[("IPT\nOBIS-USA")]
+C("Darwin Core Alignment")
+D[("National Centers for Environmental Information (NCEI)")]
+E[("IPT OBIS-USA")]
 G([OBIS])
 H([GBIF])
 J([NOAA OneStop])
 K([data.gov])
-L(["Commerce\nData Hub"])
+L(["Commerce Data Hub"])
 R[/"NCEI Passive Acoustic Data Portal"\]
 
 
 pA --> A
-A -- species detections\n+\nsound propagation--> C
-A -- raw\nand\nprocessed\ndata --> B
+A -- species detections + sound propagation--> C
+A -- raw and processed data --> B
 C --> E
 E --> D
 E --> G
@@ -165,36 +165,40 @@ end
       'secondaryColor': '#007396',
       'tertiaryColor': '#CCD1D1'
     },
-   'flowchart': { 'curve': 'basis' }
+   'flowchart': {'curve': 'basis'}
   }
 }%%
 
 flowchart TD
 
 A([Satellite Tag Deployment])
-B([ATN])
-D([NCEI])
-E([Darwin Core Alignment])
-F([IPT OBIS-USA])
-G([ATN Portal])
-H([NDBC])
-I([GTS])
+B[(ATN)]
+D[(NCEI)]
+E([Darwin Core Alignment **atn2obis**])
+F[(IPT OBIS-USA)]
+F1[(OBIS)]
+F2[(GBIF)]
+G[/ATN Portal\]
+H[(NDBC)]
+I[(GTS)]
 J[(NOAA OneStop)]
 K[(data.gov)]
-L[("Commerce\nData Hub")]
-M[("IOOS Data Catalog\n(data.ioos.us)")]
+L[("Commerce Data Hub")]
+M[("IOOS Data Catalog (data.ioos.us)")]
 
 A --> B
 B -- Data released from embargo --> D
-D .-> E
+D --> E
 D --> FC
-E .-> F
+E --> F
 B --> G
 B -- Profiling Tags --> H
 B .->|Data released from embargo| M
 M --> FC
 H --> I
-F --collection--> D
+F --OBIS-USA collection--> D
+F --> F1
+F --> F2
 
 subgraph FC [U.S. Federal Catalogs]
 J
@@ -205,6 +209,7 @@ end
 ```
 
   - See [Integrated Ocean Observing System (IOOS) Animal Telemetry Network Data Assembly Center (ATN DAC)](https://atn.ioos.us/help/).
+  - See [atn2obis](https://github.com/MathewBiddle/atn2obis): A package to submit summarized ATN satellite telemetry data from NCEI to OBIS-USA Integrated Publishing Toolkit
 
 ### &#128266; Acoustic telemetry
 
@@ -328,23 +333,23 @@ end
 
 flowchart TD
 
-A["Raw plankton observation<br/>data & metadata"]
-B["Data access point<br/>(e.g. RA ERDDAP)"]
-C[/Darwin Core<br/>alignment/]
+A["Raw plankton observation data & metadata"]
+B["Data access point (e.g. RA ERDDAP)"]
+C[/Darwin Core alignment/]
 D[/AI Classifier/]
-E[("NOAA's National Centers for Environmental Information<br/>(NCEI)")]
+E[("NOAA's National Centers for Environmental Information (NCEI)")]
 F["Ocean Biodiversity Information System node (IPT)"]
 G[("Global Biodiversity Information Facility (GBIF)")]
 H[("Ocean Biodiversity Information System (OBIS)")]
-I["IOOS Data Catalog<br/>(data.ioos.us)<br/>(metadata only)"]
-J["Harmful Algal Bloom (HAB) Products<br/>(e.g. NHABON, HABDAC, etc.)"]
-K[("Image Archive<br/>(e.g. FathomNet)")]
+I["IOOS Data Catalog (data.ioos.us) (metadata only)"]
+J["Harmful Algal Bloom (HAB) Products (e.g. NHABON, HABDAC, etc.)"]
+K[("Image Archive (e.g. FathomNet)")]
 
 A -->|not image-based| B
 A -->|if image-based| D
 D --> K
-K -. Imagery data<br/>& metadata .-> E
-K -- Biological data<br/>& metadata --> B
+K -. Imagery data & metadata .-> E
+K -- Biological data & metadata --> B
 B --> C
 B --> I
 B -.->|HAB species only| J
