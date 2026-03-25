@@ -80,7 +80,7 @@ All IOOS Regional Association affiliated datasets should include at least one **
 | Northeastern Regional Association of Coastal Ocean Observing Systems | <https://oceanexpert.org/institution/18301> | <https://obis.org/institute/18301> | <https://ror.org/05ackpy69> |
 | Northwest Association of Networked Ocean Observing Systems |   |   | <https://ror.org/01a258x16>
 | Pacific Islands Ocean Observing System | <https://oceanexpert.org/institution/20188> | <https://obis.org/institute/20188> |
-| Southern California Coastal Ocean Observing System |   |  <https://ror.org/02g349121> |
+| Southern California Coastal Ocean Observing System |   |   | <https://ror.org/02g349121> |
 | Southeast Coastal Ocean Observing System  | <https://oceanexpert.org/institution/20875> |<https://obis.org/institute/20875> |
 
 ***For MBON*** <br/>
