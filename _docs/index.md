@@ -315,7 +315,6 @@ end
   - Imaging Flow CytoBot (IFCB) - [Prototype workflow](https://github.com/CeNCOOS/OBIS_workshop_2024_IFCB) from CeNCOOS to generate a Darwin Core archive.
 
 ```mermaid
-
 %%{
   init: {
     'theme': 'base',
@@ -333,31 +332,37 @@ end
 
 flowchart TD
 
-A["Raw plankton observation data & metadata"]
-B["Data access point (e.g. RA ERDDAP)"]
-C[/Darwin Core alignment/]
-D[/AI Classifier/]
-E[("NOAA's National Centers for Environmental Information (NCEI)")]
+A["Image collecting instument (IFCB, planktoscope, etc.)"]
+B["Image access point"]
+C([Darwin Core<br/>alignment])
+D([Various classification and enumeration technologies])
+E[("NOAA's National Centers for Environmental Information<br/>(NCEI)")]
 F["Ocean Biodiversity Information System node (IPT)"]
 G[("Global Biodiversity Information Facility (GBIF)")]
 H[("Ocean Biodiversity Information System (OBIS)")]
-I["IOOS Data Catalog (data.ioos.us) (metadata only)"]
-J["Harmful Algal Bloom (HAB) Products (e.g. NHABON, HABDAC, etc.)"]
-K[("Image Archive (e.g. FathomNet)")]
+I["IOOS Data Catalog<br/>(data.ioos.us)<br/>(metadata only)"]
+J["Harmful Algal Bloom (HAB) Products<br/>(e.g. NHABON, HABDAC, etc.)"]
+K[("Image Repository")]
+X[("Plankton data (species, time, location, annotation details) available")]
+A1[("Other observing methods (eg. microscopy, edna)")]
 
-A -->|not image-based| B
-A -->|if image-based| D
-D --> K
-K -. Imagery data & metadata .-> E
-K -- Biological data & metadata --> B
-B --> C
+
+A1 -.-> D
+
+A -.-> K
+B -.-> D
+K -.-> B
+D -.-> X
+X -.-> C
 B --> I
-B -.->|HAB species only| J
-B -.-> E
+X -.->|HAB species only| J
+X --> I
+B -.Imagery data<br/>& metadata.-> E
 C --> F
 F --> G
 F --> H
 F -- OBIS-USA --> E
+X -.-> E
 ```
 
 ## Website contents
