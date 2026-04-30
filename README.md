@@ -2,8 +2,14 @@
 
 Guidance for Marine Life Data Network Data and File Formatting.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15304225.svg)](https://doi.org/10.5281/zenodo.15304225)
-Biddle, M., Brenskelle, L., & Canonico, G. (2025). Marine Life Data Network Recommendations (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.15304225
+#### Citation
+All versions: 
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15304057.svg)](https://doi.org/10.5281/zenodo.15304057)
+
+This version:
+```
+Biddle, M., Brenskelle, L., & Canonico, G. (2026). Marine Life Data Network Recommendations (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.19923892
+```
 
 ## Contributing to the documentation
 See [CONTRIBUTING](CONTRIBUTING.md).
