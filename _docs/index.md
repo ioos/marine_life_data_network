@@ -342,6 +342,7 @@ G[("Global Biodiversity Information Facility (GBIF)")]
 H[("Ocean Biodiversity Information System (OBIS)")]
 I["IOOS Data Catalog<br/>(data.ioos.us)<br/>(metadata only)"]
 J["Harmful Algal Bloom (HAB) Products<br/>(e.g. NHABON, HABDAC, etc.)"]
+Z["RA Products"]
 K[("Image Repository")]
 X[("Plankton data (species, time, location, annotation details) available")]
 A1[("Other observing methods (eg. microscopy, edna)")]
@@ -356,6 +357,7 @@ D -.-> X
 X -.-> C
 B --> I
 X -.->|HAB species only| J
+X --> Z
 X --> I
 B -.Imagery data<br/>& metadata.-> E
 C --> F
