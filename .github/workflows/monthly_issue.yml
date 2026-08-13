@@ -1,0 +1,62 @@
+name: Open Montly ATN NetWork issue
+
+on:
+  schedule:
+    - cron: 0 0 1 * *
+  workflow_dispatch:
+
+jobs:
+  create_issue:
+    name: Create monthly atn issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Get current date
+        id: date
+        run: |
+          echo "dd_mm_yyyy=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
+          echo "month=$(date +'%B')"  >> $GITHUB_OUTPUT
+          echo "year=$(date +'%Y')"  >> $GITHUB_OUTPUT
+      - name: Create issue
+        run: |
+          new_issue_url=$(gh issue create \
+            --title "$TITLE" \
+            --assignee "$ASSIGNEES" \
+            --label "$LABELS" \
+            --body "$BODY")
+          if [[ $PINNED == true ]]; then
+            gh issue pin "$new_issue_url"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TITLE: ATN ingestion into ATN through ${{ steps.date.outputs.month }}-${{ steps.date.outputs.year }}
+          ASSIGNEES: iwensu0313,laurabrenskelle,mmckinzie
+          LABELS: ATN,satTag
+          BODY: |
+            ### Who is requesting this?
+
+            @ioos/marine-life
+
+            ### What is being requested?
+
+            New datasets are ingested into the ATN DAC.
+
+            ### What is the requested deadline and why?
+
+            ${{ steps.date.outputs.dd_mm_yyyy }}
+
+            ### What is the current status quo (i.e., what happens if this does not get done)?
+
+            _No response_
+
+            ### What indicates this is done (i.e., how do we know this is complete)?
+
+            New datasets are ingested into the ATN DAC and visualized in the portal.
+
+            ### Provide a description or any other important information.
+
+            _No response_
+          PINNED: false
+          CLOSE_PREVIOUS: false
