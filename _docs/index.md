@@ -117,6 +117,7 @@ flowchart TD
 
 pA(("passive acoustic monitoring"))
 A[("hydrophone")]
+A1[("sound level metrics Hybrid milidecade (eg. pypam/MANTA)")]
 B("PassivePacker")
 C("Darwin Core Alignment")
 D[("National Centers for Environmental Information (NCEI)")]
@@ -131,7 +132,9 @@ R[/"NCEI Passive Acoustic Data Portal"\]
 
 pA --> A
 A -- species detections + sound propagation--> C
-A -- raw and processed data --> B
+A --> A1
+A1 --> B
+A -- raw audio files ( .wav, .aif., and .mp3. FLAC) --> B
 C --> E
 E --> D
 E --> G
@@ -147,6 +150,7 @@ J
 K
 L
 end
+
 ```
 
   - See [NCEI's Passive Acoustic Data Best Practices](https://www.ncei.noaa.gov/products/passive-acoustic-data#tab-3561) as the authoritative source for proper data management.
