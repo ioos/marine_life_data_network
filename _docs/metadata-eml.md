@@ -76,12 +76,12 @@ All IOOS Regional Association affiliated datasets should include at least one **
 | Central & Northern California Ocean Observing System  | <https://oceanexpert.org/institution/23204> | <https://obis.org/institute/23204> | <https://ror.org/028paz341> |
 | Great Lakes Observing System  | --- |  --- | <https://ror.org/036ftwn63> |
 | Gulf of America Coastal Ocean Observing System  | <https://oceanexpert.org/institution/18936> | <https://obis.org/institute/18936> | <https://ror.org/024q01f72> |
-| Mid-Atlantic Coastal Ocean Observing System |   |   | <https://ror.org/00qs4ap39> |
+| Mid-Atlantic Regional Association Coastal Ocean Observing System |   |   | <https://ror.org/00qs4ap39> |
 | Northeastern Regional Association of Coastal Ocean Observing Systems | <https://oceanexpert.org/institution/18301> | <https://obis.org/institute/18301> | <https://ror.org/05ackpy69> |
 | Northwest Association of Networked Ocean Observing Systems |   |   | <https://ror.org/01a258x16>
 | Pacific Islands Ocean Observing System | <https://oceanexpert.org/institution/20188> | <https://obis.org/institute/20188> | <https://ror.org/04j9xr266> |
 | Southern California Coastal Ocean Observing System |   |   | <https://ror.org/02g349121> |
-| Southeast Coastal Ocean Observing System  | <https://oceanexpert.org/institution/20875> |<https://obis.org/institute/20875> |
+| Southeast Coastal Ocean Observing Regional Association  | <https://oceanexpert.org/institution/20875> |<https://obis.org/institute/20875> |
 
 ***For MBON*** <br/>
 All `US MBON` affiliated datasets should include at least one **Associated Party** which is affiliated with `US MBON`. This allows the dataset to show up on the `US MBON` institutional dashboard. The metrics for your dataset will be tracked on this dashboard and combined with other MBON dataset metrics. This is possible because `US MBON` has an OceanExpert institute which links the various datasets together on the institute page.
