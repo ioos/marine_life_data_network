@@ -15,12 +15,13 @@ jobs:
       - name: Get current date
         id: date
         run: |
-          echo "dd_mm_yyyy=$(date +'%d-%m-%Y')" >> $GITHUB_OUTPUT
+          echo "dd_mm_yyyy=$(date -d "$(date +%Y-%m-01) +1 month -1 day" +%Y-%m-%d)"  >> $GITHUB_OUTPUT
           echo "month=$(date +'%B')"  >> $GITHUB_OUTPUT
           echo "year=$(date +'%Y')"  >> $GITHUB_OUTPUT
       - name: Create issue
         run: |
           new_issue_url=$(gh issue create \
+            --project "Marine Life Data Network" \
             --title "$TITLE" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
