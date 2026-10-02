@@ -1,4 +1,4 @@
-name: Open Montly ATN NetWork issue
+name: Open Monthly ATN NetWork issue
 
 on:
   schedule:
@@ -21,7 +21,6 @@ jobs:
       - name: Create issue
         run: |
           new_issue_url=$(gh issue create \
-            --project "Marine Life Data Network" \
             --title "$TITLE" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
