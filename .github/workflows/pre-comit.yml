@@ -1,4 +1,4 @@
-name: Code coverage report
+name: Lints
 
 on:
   pull_request:
