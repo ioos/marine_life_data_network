@@ -23,7 +23,7 @@ These tasks are outlined in issues. If appropriate, related issues can be organi
 
 ## General guidelines for using GitHub to make a request
 
-1. **Use the approprate issue template.** There are different issue templates in the repository that correspond to the different issue types. Use the one that most closely corresponds with the issue you are submitting.
+1. **Use the appropriate issue template.** There are different issue templates in the repository that correspond to the different issue types. Use the one that most closely corresponds with the issue you are submitting.
 2. **Task-specific issues should be discrete and non-recurring.** When submitting a task-specific issue, try to scope it so that it is a discrete task that can be marked complete. If it is a task that will repeat, try to word the request so it is specific. As an example, "Create and update public release notes for ATN and MBON portals" could be re-scoped to "Create release notes for ATN portal release version 1.1.1". If you are unsure how to do this but still want to make a request, submit the issue, and MLDN community members can help narrow the scope of the issue.
    1. **Keep descriptions and discussions focused on the task.** The descriptions and discussions within issues should be focused on what the task is and who is requesting the activity. Limit references to organizations/entities unless absolutely necessary, the moderators will use the `assignee` feature within GitHub issues to identify/notify appropriate staff.
 3. **A given proposal should be discussed as one issue.** It shouldn't fork or be superseded by another one, unless that reflects what has happened to the proposal. This is so it is easy to trace the discussion that led to a given agreed proposal.
