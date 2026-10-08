@@ -71,8 +71,8 @@ All IOOS Regional Association affiliated datasets should include at least one **
 
 | Regional Association | OceanExpert |  OBIS Institute | [ROR](https://www.ror.org/) |
 |---|---|---|---|
-| Alaska Ocean Observing System  |   |   |
-| Caribbean Coastal Ocean Observing System  | <https://oceanexpert.org/institution/16063>  | <https://obis.org/institute/16063>  |
+| Alaska Ocean Observing System  |   |   | <https://ror.org/059w3hk79> |
+| Caribbean Coastal Ocean Observing System  | <https://oceanexpert.org/institution/16063>  | <https://obis.org/institute/16063>  | <https://ror.org/05magkd24> |
 | Central & Northern California Ocean Observing System  | <https://oceanexpert.org/institution/23204> | <https://obis.org/institute/23204> | <https://ror.org/028paz341> |
 | Great Lakes Observing System  | --- |  --- | <https://ror.org/036ftwn63> |
 | Gulf of America Coastal Ocean Observing System  | <https://oceanexpert.org/institution/18936> | <https://obis.org/institute/18936> | <https://ror.org/024q01f72> |
