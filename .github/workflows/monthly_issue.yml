@@ -32,7 +32,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           TITLE: ATN ingestion into ATN DAC through ${{ steps.date.outputs.month }}-${{ steps.date.outputs.year }}
-          ASSIGNEES: iwensu0313,mmckinzie
+          ASSIGNEES: iwensu0313,mmckinzie,KarinaKh
           LABELS: ATN,satTag
           BODY: |
             ### Who is requesting this?
